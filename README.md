@@ -514,8 +514,8 @@ This section records observations from the four screenshots. **No issue below is
 > Contact details were not available. Replace the placeholders with the details from your existing portfolio README so this section matches your other projects.
 
 - **Name:** [PLACEHOLDER: Ankar Goswami]
-- **LinkedIn:** [PLACEHOLDER: https://www.linkedin.com/in/ankar-goswami-23a196245/]
-- **GitHub:** [PLACEHOLDER: https://github.com/Ankar-G]
-- **Email:** [PLACEHOLDER: goswamijit99@gmail.com]
+- **LinkedIn:** [https://www.linkedin.com/in/ankar-goswami-23a196245/]
+- **GitHub:** [https://github.com/Ankar-G]
+- **Email:** [goswamijit99@gmail.com]
 
 If you found this project useful, consider giving the repository a star.
