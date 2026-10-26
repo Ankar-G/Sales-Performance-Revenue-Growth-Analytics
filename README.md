@@ -1,11 +1,20 @@
-# 🚚 Transportation & Logistics Optimization Dashboard
+# Sales & Marketing Analytics Dashboard
 
-> An Excel-based analytics project that evaluates transportation cost, delivery performance, carrier and route efficiency, and vehicle utilization across 1,200 shipments (January–October 2026).
+> A four-page, interactive Power BI report that tracks revenue, profitability, product mix, regional and sales-representative performance, and customer behavior.
 
-![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346) ![Domain](https://img.shields.io/badge/Domain-Supply%20Chain%20%26%20Logistics-blue) ![Dashboards](https://img.shields.io/badge/Dashboards-3-orange)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-blue)
+![Tool](https://img.shields.io/badge/Tool-Power%20BI-F2C811)
+![Dashboards](https://img.shields.io/badge/Dashboards-4-1f77b4)
 
-> **📌 Draft notes for the author (delete before publishing)**
-> This README was built from the three dashboard screenshots. Items marked **`[PLACEHOLDER]`** need your input. Items marked **⚠️ Validate** are inconsistencies or unclear definitions found in the screenshots. Resolve or document them before publishing.
+**Evidence legend used throughout this document**
+
+| Label | Meaning |
+|---|---|
+| **Verified** | Read directly from the dashboard screenshots |
+| **Derived** | Calculated by me from rounded values shown on the dashboards (small rounding differences are expected) |
+| **[PLACEHOLDER: confirm this information]** | Not visible in the screenshots; must be confirmed against the actual `.pbix` file or dataset |
+
+> **Tool note:** The screenshots show Power BI report features (page navigator, slicers, cross-filtering visuals), so this README assumes **Power BI**. **[PLACEHOLDER: confirm this information]**
 
 ---
 
@@ -19,508 +28,495 @@
 6. [Data Cleaning and Preparation](#6-data-cleaning-and-preparation)
 7. [Key Calculations and Metrics](#7-key-calculations-and-metrics)
 8. [Dashboard Overview](#8-dashboard-overview)
-9. [Dashboard 1: Transportation Performance Overview](#9-dashboard-1-transportation-performance-overview)
-10. [Dashboard 2: Carrier & Route Optimization](#10-dashboard-2-carrier--route-optimization)
-11. [Dashboard 3: Vehicle Utilization & Cost Saving](#11-dashboard-3-vehicle-utilization--cost-saving)
-12. [Key Project Insights](#12-key-project-insights)
-13. [Business Value](#13-business-value)
-14. [Business Questions Answered](#14-business-questions-answered)
-15. [Technical Skills and Tools](#15-technical-skills-and-tools)
-16. [Project Structure](#16-project-structure)
-17. [Data Validation Notes](#17-data-validation-notes)
-18. [Dashboard Preview](#18-dashboard-preview)
-19. [Connect With Me](#19-connect-with-me)
+9. [Dashboard 1: Executive Sales Overview](#9-dashboard-1-executive-sales-overview)
+10. [Dashboard 2: Product Performance Analysis](#10-dashboard-2-product-performance-analysis)
+11. [Dashboard 3: Regional & Sales Representative Performance](#11-dashboard-3-regional--sales-representative-performance)
+12. [Dashboard 4: Customer & Revenue Analysis](#12-dashboard-4-customer--revenue-analysis)
+13. [Key Project Insights](#13-key-project-insights)
+14. [Business Value](#14-business-value)
+15. [Business Questions Answered](#15-business-questions-answered)
+16. [Technical Skills and Tools](#16-technical-skills-and-tools)
+17. [Project Structure](#17-project-structure)
+18. [Data Validation Notes](#18-data-validation-notes)
+19. [Dashboard Preview](#19-dashboard-preview)
+20. [Connect With Me](#20-connect-with-me)
 
 ---
 
 ## 1. Project Overview
 
-This project analyzes transportation operations for **1,200 shipments** with a total transportation cost of **₹36,874,775**. It is delivered as three interactive Excel dashboards:
+**Sales & Marketing Analytics** is a four-page interactive Power BI report that turns sales data into decision-ready views for executives, product managers, regional sales leaders, and account managers.
 
-| # | Dashboard | Focus |
-|---|-----------|-------|
-| 1 | Transportation Performance Overview | Cost, volume, delivery status, budget vs. actual |
-| 2 | Carrier & Route Optimization | Carrier cost, on-time rate, route transit performance |
-| 3 | Vehicle Utilization & Cost Saving | Load vs. capacity, cost breakdown, estimated savings |
-
-**Data source:** `[PLACEHOLDER: state the source. If the dataset is synthetic or simulated, say so clearly here.]`
-**Data period:** January 2026 – October 2026 (based on the monthly charts; October may be a partial month — **⚠️ Validate**).
-**Currency:** Indian Rupees (₹). The symbol appears on some chart labels, but not on KPI cards. **⚠️ Validate** that all values are INR.
+| Item | Detail |
+|---|---|
+| **Reporting period** | Monthly and quarterly views span January–December; the calendar vs. fiscal year and the Year slicer values are **[PLACEHOLDER: confirm this information]** |
+| **Headline results (all filters = "All")** | Revenue **25.08M**, Profit **8.40M**, Profit Margin **33.49%**, Orders **8,818**, Customers **900**, Sales Representatives **40** |
+| **Currency** | KPI cards show no currency symbol; insight text uses "$". **[PLACEHOLDER: confirm this information]** |
+| **Report pages** | Executive Sales Overview · Product Performance Analysis · Regional & Sales Representative Performance · Customer & Revenue Analysis |
+| **Navigation** | Left-hand page navigator on every page plus page-specific slicers |
 
 ---
 
 ## 2. Problem Statement
 
-Logistics teams need to control transportation spend while keeping deliveries on time. Common challenges include:
+Sales leadership needs one place to answer: *How is the business performing, what is driving it, and where should we act?* Without a consolidated view, leaders cannot easily see:
 
-- Actual cost running above budget
-- Uneven on-time performance across carriers and routes
-- Planned transit times that are not met
-- Vehicles running below their load capacity
-
-Without a consolidated view, it is hard to tell where cost is going, which carriers or routes underperform, and where optimization could have the most impact. This project brings these views together in one dashboard set.
+- Whether growth and margin are healthy across time periods.
+- Which products, categories, regions, and representatives generate (or dilute) profit.
+- How dependent revenue is on a few categories, segments, industries, or accounts.
+- Whether customers are being retained.
 
 ---
 
 ## 3. Business Objectives
 
-- Track total transportation cost, cost per shipment, and monthly cost trends
-- Compare **actual vs. budgeted** transportation cost by month
-- Measure delivery performance (on-time rate, delays, pending shipments)
-- Compare carriers on cost, on-time delivery, and rating
-- Identify routes where actual transit time exceeds planned transit time
-- Measure vehicle utilization and identify underutilized shipments
-- Break down cost by component (freight, fuel surcharge, handling, toll, other)
-- Estimate **potential** savings under clearly stated scenario assumptions
+1. Monitor revenue, profit, margin, growth, and order volume in a single executive view.
+2. Identify top and bottom products and categories by revenue, profit, and units sold.
+3. Compare regional and sales-representative performance and assess target attainment.
+4. Understand customer segments, key accounts, industries, and retention.
+5. Surface data-quality and metric-definition issues before the report is used for decisions (see [Section 18](#18-data-validation-notes)).
 
 ---
 
 ## 4. Project Workflow
 
-```text
-Raw Data  →  Data Cleaning  →  Data Model / PivotTables  →  KPI Calculations  →  Charts & Slicers  →  Insights & Recommendations
-```
-
 | Step | Activity | Status |
-|------|----------|--------|
-| 1 | Collect / generate shipment data | `[PLACEHOLDER: describe]` |
-| 2 | Clean and standardize fields | `[PLACEHOLDER: describe]` |
-| 3 | Build calculated columns and measures | `[PLACEHOLDER: Excel formulas and/or DAX]` |
-| 4 | Create PivotTables and PivotCharts | Evident from chart field names (e.g., "Sum of Budgeted_Cost") |
-| 5 | Add slicers (Destination, Carrier_ID, Order_Date, etc.) | Evident from screenshots |
-| 6 | Design three dashboards | Completed |
-| 7 | Validate metrics and document findings | See [Section 17](#17-data-validation-notes) |
+|---|---|---|
+| 1 | Define KPIs and dashboard pages | Reflected in the report |
+| 2 | Acquire and profile source data | **[PLACEHOLDER: confirm this information]** |
+| 3 | Clean and transform data | **[PLACEHOLDER: confirm this information]** |
+| 4 | Build the data model and relationships | **[PLACEHOLDER: confirm this information]** |
+| 5 | Create measures (revenue, profit, margin, growth, AOV, etc.) | Reflected in the report; exact logic **[PLACEHOLDER: confirm this information]** |
+| 6 | Design four report pages with slicers and navigation | Reflected in the report |
+| 7 | Add written key insights to each page | Reflected in the report |
+| 8 | Validate totals and definitions across pages | Documented in [Section 18](#18-data-validation-notes) |
 
 ---
 
 ## 5. Dataset and Data Model
 
-> `[PLACEHOLDER: add table names, row counts, and relationship diagram.]` Only fields visible in the dashboards are listed below.
+The underlying dataset and data model were **not inspected** for this README. Tables, keys, and relationships must be added after review of the source file.
 
-### 5.1 Fields Confirmed from the Dashboards
+### 5.1 Fields observable in the dashboards
 
-| Field | Used In | Description |
-|-------|---------|-------------|
-| `Order_Date` | Dashboard 1 slicer | Shipment order date |
-| `Order_Month` | Dashboard 2 slicer | Month of the order |
-| `Destination` | Dashboards 1 and 3 | Delivery destination (city) |
-| `Origin` | Dashboard 3 slicer | Shipment origin (city) |
-| `Carrier_ID` | Dashboards 1 and 2 | Carrier identifier (e.g., CAR-01) |
-| `Route_ID` | Dashboard 2 | Route identifier (e.g., RT-001) |
-| `Vehicle_Type` | Dashboard 3 | Vehicle category (e.g., 14ft Closed Body Truck) |
-| `Budgeted_Cost` | Dashboard 1 | Planned cost for the shipment |
-| `Total_Transportation_Cost` | Dashboards 1–3 | Actual total cost for the shipment |
-| `Planned_Transit_Hours` | Dashboard 2 | Planned transit duration |
-| `Actual_Transit_Hours` | Dashboard 2 | Actual transit duration |
-| `Capacity_KG` | Dashboard 3 | Vehicle capacity |
-| `Actual_Load_KG` | Dashboard 3 | Actual load carried |
+| Field / Entity | Where it appears | Likely role (inferred) |
+|---|---|---|
+| `Year` | Slicer on all pages | Date attribute |
+| `Month_Name` | Slicer on pages 2–4; monthly charts | Date attribute |
+| `Region_Name` | Slicer on pages 1, 3, 4; regional charts | Geography attribute (12 regions implied; see below) |
+| `Category` | Slicer on page 1; category charts | Product attribute (Technology, Furniture, Office Supplies) |
+| `Customer_Segment` | Slicer on page 1; segment charts | Customer attribute (Enterprise, Mid-Market, Small Business) |
+| `Sales_Rep_Name` | Slicer on page 2; representative charts | Sales team attribute (40 representatives) |
+| Product name | Product charts | Product attribute |
+| Customer name, Industry | Customer charts | Customer attributes |
+| Revenue, Profit, Orders, Units, Sales Target | KPI cards / chart legends | Measures or numeric fields |
 
-### 5.2 Fields Implied but Not Confirmed
+Regions identified in the screenshots: West Coast, Florida Peninsula, Texas Gulf, New York Metro, Pacific Northwest, Carolinas, Mid-Atlantic, Midwest Central, Southeast, New England, Mountain West, Great Lakes. Mountain West and Great Lakes are visible only in the Dashboard 3 table; the Dashboard 1 and 3 region bar charts are scrollable and show the top regions.
 
-These are needed for the charts shown, but the column names are not visible. `[PLACEHOLDER: confirm exact names]`
+### 5.2 Data model (to be completed)
 
-| Implied Field | Needed For |
-|---------------|-----------|
-| Shipment ID | Shipment counts (1,200) |
-| Delivery status (On Time / Delayed / Pending) | Dashboard 1 donut chart |
-| Shipment status (Delivered / In Transit / Returned) | Dashboard 3 donut chart |
-| Transportation mode (Road – FTL / LTL / Express) | Dashboard 1 pie chart |
-| Carrier name and rating | Dashboard 2 charts and rating KPI |
-| Distance (km) | Cost per km KPI |
-| Cost components (Freight, Fuel Surcharge, Handling, Toll, Other) | Dashboard 3 cost breakdown |
-| Delay hours | Average delivery delay KPI |
-| Damage / failure indicator | Damage / failed delivery rate KPI |
-
-### 5.3 Table Structure and Relationships
-
-`[PLACEHOLDER: e.g., Shipments (fact) → Carriers, Routes, Vehicles, Destinations (dimensions). Add a model diagram: images/data_model.png]`
+| Item | Status |
+|---|---|
+| Fact table(s) | **[PLACEHOLDER: confirm this information]** |
+| Dimension tables (Date, Product, Customer, Region, Sales Rep) | **[PLACEHOLDER: confirm this information]** |
+| Primary / foreign keys | **[PLACEHOLDER: confirm this information]** |
+| Relationship cardinality and filter direction | **[PLACEHOLDER: confirm this information]** |
+| Where Sales Target is stored and at what grain | **[PLACEHOLDER: confirm this information]** |
+| Data source (file, database, synthetic generator) | **[PLACEHOLDER: confirm this information]** |
 
 ---
 
 ## 6. Data Cleaning and Preparation
 
-`[PLACEHOLDER: document the cleaning steps you actually performed.]`
+No cleaning steps are documented here because none can be verified from the screenshots. Complete this table from the Power Query / source-file review.
 
-| Check | Details |
-|-------|---------|
-| Duplicates | `[PLACEHOLDER]` |
-| Missing values | `[PLACEHOLDER]` |
-| Data types (dates, numbers, text) | `[PLACEHOLDER]` |
-| Naming standardization (city, carrier, vehicle names) | `[PLACEHOLDER]` |
-| Calculated columns added | `[PLACEHOLDER]` |
-| Month ordering | Month axes should be sorted chronologically (see Section 17) |
+| Area | Step performed | Status |
+|---|---|---|
+| Missing values | — | **[PLACEHOLDER: confirm this information]** |
+| Duplicates | — | **[PLACEHOLDER: confirm this information]** |
+| Data types and formats | — | **[PLACEHOLDER: confirm this information]** |
+| Date table / month sorting | — | **[PLACEHOLDER: confirm this information]** (see validation notes V-07, V-13) |
+| Derived columns (profit, quarter, etc.) | — | **[PLACEHOLDER: confirm this information]** |
 
 ---
 
 ## 7. Key Calculations and Metrics
 
-> **Important:** The formulas below are **suggested reference definitions** and have not been taken from the original workbook. Replace them with your actual Excel formulas or DAX measures. Some KPI values shown on the dashboards do not reconcile with the reference definitions (see Section 17).
+> **Reference examples only.** The DAX below shows standard ways to compute each KPI. Table and column names (`Sales`, `Customers`, etc.) are placeholders and the actual measures have **not** been verified. **[PLACEHOLDER: confirm this information]**
 
-### 7.1 KPI Definitions
+### 7.1 KPI definitions
 
-| KPI | Dashboard Value | Reference Definition |
-|-----|-----------------|----------------------|
-| Total Transportation Cost | ₹36,874,775 | Sum of `Total_Transportation_Cost` |
-| Total Shipments | 1,200 | Count of shipments |
-| Cost per Shipment | ₹30,728.98 | Total cost ÷ total shipments |
-| On-Time Delivery Rate | 89.05% | On-time shipments ÷ shipments in scope (**⚠️ definition unclear**) |
-| Average Delivery Delay Hours | 29.03 | Average of delay hours (**⚠️ scope unclear**) |
-| Total Active Carriers | 12 | Distinct count of carriers |
-| Lowest Cost per Shipment | ₹5,127 | **⚠️ Unclear**: minimum of what? |
-| Average Carrier Rating | 3.9 / 5 | Average of carrier rating |
-| Average Cost per KM | ₹58.00 | Total cost ÷ total distance |
-| Route Cost Variance | 5.35% | (Actual − Budget) ÷ Budget (**⚠️ scope unclear**) |
-| Average Vehicle Utilization | 66.59% | Actual load ÷ capacity (**⚠️ method unclear**) |
-| Underutilized Shipments | 621 | Shipments below a utilization threshold `[PLACEHOLDER: threshold]` |
-| Total Excess Transportation Cost | ₹1,962.9K | Actual − Budget (see note in 7.3) |
-| Potential Estimated Cost Saving | ₹2,040.0K | Scenario estimate (see 7.3) |
-| Damage / Failed Delivery Rate | 4.17% | Damaged or failed shipments ÷ total shipments |
+| KPI | Definition | Displayed value | Appears on |
+|---|---|---|---|
+| Total Revenue | Sum of sales revenue | 25.08M | Pages 1, 2 (as Product Revenue), 3 |
+| Total Profit | Sum of profit | 8.40M | Page 1 |
+| Profit Margin % | Total Profit ÷ Total Revenue | 33.49% | Pages 1, 2 |
+| Revenue Growth % | Period-over-period change in revenue (period undefined) | 10.00% | Page 1 |
+| Total Orders | Count of distinct orders | 8,818 | Page 1 |
+| Total Units Sold | Sum of quantity | 130K | Page 2 |
+| Average Order Value | Total Revenue ÷ Total Orders | 2.84K | Page 4 |
+| Revenue per Customer | Total Revenue ÷ Distinct customers | 27.86K | Page 4 |
+| Repeat Purchase Rate % | Repeat customers ÷ Total customers | 92.33% | Page 4 |
+| Avg. Revenue per Representative | Total Revenue ÷ Distinct sales representatives | 626.90K | Page 3 |
 
-### 7.2 Example Excel Formulas (Reference Only)
+### 7.2 Reference DAX
 
-```excel
-' Cost per shipment
-= SUM(Total_Transportation_Cost) / COUNTA(Shipment_ID)
+```DAX
+-- Revenue, profit, margin
+Total Revenue = SUM ( Sales[Revenue] )
+Total Profit  = SUM ( Sales[Profit] )
+Profit Margin % = DIVIDE ( [Total Profit], [Total Revenue] )
 
-' Vehicle utilization (row level)
-= Actual_Load_KG / Capacity_KG
+-- Orders, units, order value
+Total Orders     = DISTINCTCOUNT ( Sales[Order_ID] )
+Total Units Sold = SUM ( Sales[Quantity] )
+Average Order Value = DIVIDE ( [Total Revenue], [Total Orders] )
 
-' Transit delay (row level)
-= Actual_Transit_Hours - Planned_Transit_Hours
+-- Customers
+Total Customers = DISTINCTCOUNT ( Sales[Customer_ID] )
+Revenue per Customer = DIVIDE ( [Total Revenue], [Total Customers] )
 
-' Cost variance %
-= (SUM(Total_Transportation_Cost) - SUM(Budgeted_Cost)) / SUM(Budgeted_Cost)
+-- Repeat purchase rate (definition of "repeat" must be confirmed)
+Repeat Customers =
+CALCULATE (
+    DISTINCTCOUNT ( Sales[Customer_ID] ),
+    FILTER (
+        VALUES ( Sales[Customer_ID] ),
+        CALCULATE ( DISTINCTCOUNT ( Sales[Order_ID] ) ) > 1
+    )
+)
+Repeat Purchase Rate % = DIVIDE ( [Repeat Customers], [Total Customers] )
+
+-- Sales representatives
+Total Sales Representatives = DISTINCTCOUNT ( Sales[Sales_Rep_ID] )
+Avg Revenue per Representative = DIVIDE ( [Total Revenue], [Total Sales Representatives] )
+
+-- Revenue growth: requires a defined comparison period (YoY, QoQ, MoM)
+Revenue Growth % =
+VAR Prior = CALCULATE ( [Total Revenue], DATEADD ( 'Date'[Date], -1, YEAR ) )
+RETURN DIVIDE ( [Total Revenue] - Prior, Prior )
 ```
 
-### 7.3 Example DAX Measures (Reference Only, if a Data Model Is Used)
+### 7.3 Sales target achievement
 
-```dax
-Total Cost = SUM ( Shipments[Total_Transportation_Cost] )
+Target Achievement % should be calculated only when **actual revenue and target use the same period, entity, and aggregation level**:
 
-Total Shipments = COUNTROWS ( Shipments )
-
-Cost per Shipment = DIVIDE ( [Total Cost], [Total Shipments] )
-
-Avg Utilization % = DIVIDE ( SUM ( Shipments[Actual_Load_KG] ), SUM ( Shipments[Capacity_KG] ) )
-
-Cost Variance % = DIVIDE ( [Total Cost] - SUM ( Shipments[Budgeted_Cost] ), SUM ( Shipments[Budgeted_Cost] ) )
+```DAX
+Target Achievement % = DIVIDE ( [Total Revenue], [Total Sales Target] )
 ```
 
-### 7.4 Savings Estimate: Observed Relationships
-
-The Dashboard 3 savings figures appear to be **scenario-based assumptions**, not measured outcomes:
-
-| Component | Value | How It Appears to Be Derived |
-|-----------|-------|------------------------------|
-| Reduced Budget Overruns by 10% | ₹196.3K | 10% × ₹1,962.9K excess cost |
-| Reduced Transportation Costs by 5% | ₹1.8M | ≈ 5% × ₹36.87M total cost |
-| **Potential Estimated Cost Saving** | **₹2,040.0K** | Sum of the two scenarios (≈ ₹2.04M) |
-
-The 10% and 5% reduction rates are assumptions `[PLACEHOLDER: state the basis]`. These are **estimates only, not guaranteed savings**.
+On the current dashboards, representative revenue (about 0.97M–1.43M) and target labels (about 19K–37K) differ by roughly 28×–52× (Derived), and the achievement chart shows unitless values of 46–55. The target definition therefore requires validation before any attainment claim is made (see V-09).
 
 ---
 
 ## 8. Dashboard Overview
 
-| Dashboard | Slicers | KPI Cards | Charts |
-|-----------|---------|-----------|--------|
-| 1. Transportation Performance Overview | Destination, Carrier_ID, Order_Date | 5 | 5 |
-| 2. Carrier & Route Optimization | Order_Month, Route_ID, Carrier_ID | 5 | 5 |
-| 3. Vehicle Utilization & Cost Saving | Vehicle_Type, Origin, Destination | 5 | 5 |
+| # | Dashboard | Slicers (as shown) | Primary audience | Focus |
+|---|---|---|---|---|
+| 1 | Executive Sales Overview | Year, Region_Name, Category, Customer_Segment | Executives | Revenue, profit, growth, orders |
+| 2 | Product Performance Analysis | Year, Month_Name, Sales_Rep_Name | Product / merchandising | Product revenue, profit, units, category trends |
+| 3 | Regional & Sales Representative Performance | Year, Month_Name, Region_Name | Sales leadership | Region and representative results, target achievement |
+| 4 | Customer & Revenue Analysis | Year, Month_Name, Region_Name | Account / customer success | Segments, key accounts, industries, retention |
 
 ---
 
-## 9. Dashboard 1: Transportation Performance Overview
+## 9. Dashboard 1: Executive Sales Overview
 
-**Purpose:** Give a high-level view of total spend, shipment volume, delivery status, and budget performance.
+**Purpose (as stated on the page):** Track overall sales performance, profitability, and growth across the business.
 
-### KPIs
+### KPI cards (Verified)
 
 | KPI | Value |
-|-----|-------|
-| Total Transportation Cost | ₹36,874,775 |
-| Total Shipments | 1,200 |
-| On-Time Delivery Rate | 89.05% (⚠️ see Section 17) |
-| Cost per Shipment | ₹30,728.98 |
-| Average Delivery Delay Hours | 29.03 |
+|---|---|
+| Total Revenue | 25.08M |
+| Total Profit | 8.40M |
+| Profit Margin | 33.49% |
+| Revenue Growth | 10.00% |
+| Total Orders | 8,818 |
 
 ### Charts
 
-| Chart | What It Shows | Observations from the Screenshot |
-|-------|---------------|----------------------------------|
-| Monthly Transportation Cost Trend | Monthly actual cost | Peak in August (₹5.1M); lowest in October (₹1.8M). Months are plotted alphabetically, not chronologically. |
-| Delivery Status Distribution | On Time / Delayed / Pending | On Time 993, Delayed 167, Pending 40 (total 1,200) |
-| Monthly Actual vs. Budgeted Transportation Cost | Budget vs. actual by month | Actual is above budget in every month shown, Jan–Oct (rounded labels) |
-| Transportation Cost By Destination | Cost by city | Highest bars appear to be Indore (~₹2.9M), Hyderabad (~₹2.7M), Ahmedabad (~₹2.0M). Verify label-to-bar mapping. |
-| Shipment Volume By Transportation Mode | Shipments by mode | Road – FTL 615 (51.3%), Road – LTL 321 (26.8%), Road – Express 264 (22.0%) |
+| Chart | Type | What it shows |
+|---|---|---|
+| Revenue & Profit by Quarter | Clustered column | Q1 5.9M / 1.9M · Q2 6.1M / 2.0M · Q3 5.6M / 2.0M · Q4 7.5M / 2.5M (revenue / profit) |
+| Revenue by Region | Horizontal bar (scrollable) | West Coast 2.9M, Florida Peninsula 2.8M, Texas Gulf 2.5M, New York Metro 2.4M, Pacific Northwest 2.2M, Carolinas 2.1M, Mid-Atlantic 2.1M, Midwest Central 1.9M, Southeast 1.9M, New England 1.6M |
+| Revenue by Product Category | Horizontal bar | Technology 19.5M, Furniture 3.8M, Office Supplies 1.7M |
+| Monthly Revenue & Profit Trend | Line | Revenue ranges from 1.7M (July) to 2.8M (December); profit from 0.6M to 1.0M |
+| Actual Sales vs Sales Target | Area | Single series with values 915 down to 627; **see V-02** |
 
-### Monthly Actual vs. Budget (Values Read from Chart Labels, in ₹ Millions)
+### Key insights
 
-| Month | Budgeted | Actual |
-|-------|---------:|-------:|
-| Jan | 3.1 | 3.3 |
-| Feb | 2.8 | 2.9 |
-| Mar | 3.7 | 3.9 |
-| Apr | 3.9 | 4.2 |
-| May | 3.7 | 3.9 |
-| Jun | 4.4 | 4.6 |
-| Jul | 3.8 | 4.1 |
-| Aug | 4.8 | 5.1 |
-| Sep | 3.0 | 3.2 |
-| Oct | 1.7 | 1.8 |
-| **Total (approx.)** | **≈ 34.9** | **≈ 37.0** |
+1. **Q4 is the strongest quarter.** Q4 revenue of 7.5M is about 29.9% of annual revenue (Derived) and about 34% above Q3 (Derived). Monthly revenue rises from 1.7M in July to 2.8M in December.
+2. **Margin is stable.** Quarterly margins calculated from the displayed values stay in a narrow range of about 32%–36% (Derived), consistent with the 33.49% overall margin.
+3. **Technology dominates.** Technology contributes 19.5M, about 77.7% of revenue (Derived).
 
-The values are rounded, so totals are approximate. The actual total is consistent with the ₹36.87M KPI.
+### Recommendations
 
-### Insights and Recommendations
-
-- Spending exceeded budget in every month shown, with an overall gap of roughly ₹2M, or about 6% on rounded values.
-- Full truckload (FTL) carries just over half of all shipments, so it is a natural first area for cost review.
-- Recommendation: investigate the months with the largest gaps (e.g., Aug, Jun, Apr) and review budget-setting for peak months.
+- Treat Technology concentration as a portfolio risk and test growth in Furniture and Office Supplies.
+- Plan inventory, staffing, and promotions around the Q4 peak and investigate the July trough.
+- Do not use the Revenue Growth card or the "Actual Sales vs Sales Target" chart for decisions until their definitions are confirmed (V-01, V-02).
 
 ---
 
-## 10. Dashboard 2: Carrier & Route Optimization
+## 10. Dashboard 2: Product Performance Analysis
 
-**Purpose:** Compare carriers and routes on cost, reliability, and transit performance.
+**Purpose (as stated on the page):** Analyze product-wise sales, profitability, and trends to identify top performers and growth opportunities.
 
-### KPIs
-
-| KPI | Value |
-|-----|-------|
-| Total Active Carriers | 12 |
-| Lowest Cost per Shipment | ₹5,127 (⚠️ definition unclear) |
-| Average Carrier Rating | 3.9 / 5 |
-| Average Cost per KM | ₹58.00 |
-| Route Cost Variance | 5.35% |
-
-### Carrier Comparison (Values Read from the Charts)
-
-| Carrier | Total Cost (₹M) | On-Time Rate | Cost per Shipment* (₹) |
-|---------|----------------:|-------------:|-----------------------:|
-| Apex Parcel & Cargo | 1.6 | 92.06% | 23.1K |
-| Arrow Cargo Express | 2.1 | 75.28% | 23.3K |
-| Bharat Freight Lines | 3.8 | 87.63% | 37.0K |
-| Deccan Transport Co | 3.5 | 75.53% | 35.1K |
-| Ganga Carriers | 1.9 | 66.10% | 31.1K |
-| Himalaya Cargo Movers | 5.0 | ~92.66%† | 43.5K |
-| Kaveri Logistics | 3.8 | 83.50% | 35.9K |
-| MetroLink Freight | 3.3 | ~86.59%† | 22.8K |
-| QuickLoad LTL Services | 2.4 | ~85.10%† | 22.8K |
-| RapidMove Logistics | 2.0 | 74.65% | 25.9K |
-| Sunrise Roadways | 5.3 | 83.06% | 40.1K |
-| SwiftHaul Express | 2.2 | 92.55% | 22.5K |
-
-\* The bottom-right chart is titled "Carrier Cost vs On Time Delivery" but shows a single "Total" series in ₹ thousands. The measure is assumed to be cost per shipment. **⚠️ Validate.**
-† These labels are partly cut off in the screenshot and need to be re-checked.
-
-### Other Charts
-
-| Chart | Observations |
-|-------|--------------|
-| On-Time Delivery Rate by Route | Five routes shown: RT-016 (74.4), RT-017 (75.0), RT-028 (77.6), RT-058 (78.0), RT-062 (83.0). Values lack a % sign. The selection logic (e.g., top/bottom 5) is not stated. |
-| Planned vs. Actual Transit Time | For all ten routes shown, actual transit time is higher than planned. The largest gaps appear on RT-051 (46.3 → 67.9 hrs) and RT-073 (35.7 → 57.6 hrs). The RT-010 actual label is obscured. |
-
-### Insights and Recommendations
-
-- On-time performance varies widely: Ganga Carriers is lowest at 66.10%, while SwiftHaul Express and Apex Parcel & Cargo are above 92%.
-- SwiftHaul Express combines one of the lowest cost-per-shipment values (₹22.5K) with a high on-time rate (92.55%). Himalaya Cargo Movers has the highest cost per shipment (₹43.5K) and a similar on-time rate. Both are worth a deeper review.
-- Recommendation: review contracts and volume allocation for high-cost, lower-reliability carriers, and investigate root causes on routes with large transit gaps.
-
----
-
-## 11. Dashboard 3: Vehicle Utilization & Cost Saving
-
-**Purpose:** Evaluate how well vehicle capacity is used, where cost is concentrated, and what savings might be possible under stated assumptions.
-
-### KPIs
+### KPI cards (Verified)
 
 | KPI | Value |
-|-----|-------|
-| Average Vehicle Utilization | 66.59% |
-| Underutilized Shipments | 621 (51.75% of 1,200) |
-| Total Excess Transportation Cost | ₹1,962.9K |
-| Potential Estimated Cost Saving | ₹2,040.0K (estimate) |
-| Damage / Failed Delivery Rate | 4.17% (≈ 50 of 1,200) |
+|---|---|
+| Total Unit Sold | 130K |
+| Total Selling Product (label as shown) | Productivity Suite License |
+| Product Revenue | 25.08M |
+| Product Profit Margin % | 33.49% |
 
 ### Charts
 
-| Chart | Observations |
-|-------|--------------|
-| Vehicle Utilization by Vehicle Type | 32ft MXL Container 73.72% and 22ft Closed Body Truck 72.45% are highest among legible labels. Mahindra Bolero Pickup is lowest at 55.23%, and Tata 407 is 58.11%. The 32ft SXL label is cut off. |
-| Shipment Status Distribution | Delivered 1,141; In Transit 40; Returned 19 |
-| Transportation Cost Breakdown | See table below |
-| Actual Load vs. Vehicle Capacity | Average actual load is below capacity for every vehicle type (e.g., 32ft MXL: ~11.8K vs 16.0K kg) |
-| Potential Saving by Optimization Opportunity | Reduced budget overruns by 10%: ₹196.3K. Reduced transportation costs by 5%: ₹1.8M. |
+| Chart | Type | What it shows |
+|---|---|---|
+| Revenue by Product | Horizontal bar (scrollable) | ProBook 15 Performance Laptop 3.0M, ProBook 14 Business Laptop 2.8M, Productivity Suite License 1.6M, Endpoint Security License 1.4M, Workstation Elite 16 Laptop 1.3M, UltraSlim 13 Laptop 1.2M, 27-inch QHD Monitor 1.0M, Cloud Backup Subscription 1.0M, Project Management Platform License 0.9M |
+| Profit by Product Category | Column | Technology 6.6M, Furniture 1.3M, Office Supplies 0.5M |
+| Units Sold by Category | Column | Technology 83K, Office Supplies 31K, Furniture 16K |
+| Revenue vs Profit by Product | Clustered bar | Laptops show high revenue with low profit (about 0.4M profit on 3.0M and 2.8M revenue); Productivity Suite License (1.6M revenue, 1.1M profit) and Endpoint Security License (1.4M revenue, 1.0M profit) show high profit. Some data labels overlap |
+| Monthly Product Category Trends | Line (3 series) | Technology fluctuates between about 1.2M and 2.2M per month; Furniture and Office Supplies stay roughly between 0.1M and 0.4M |
 
-### Cost Breakdown (Values Read from the Chart)
+### Key insights
 
-| Component | Cost (₹M) | Approx. Share |
-|-----------|----------:|--------------:|
-| Freight | 30.9 | 83.7% |
-| Fuel Surcharge | 2.4 | 6.5% |
-| Handling | 1.7 | 4.6% |
-| Toll | 1.3 | 3.5% |
-| Other | 0.6 | 1.6% |
-| **Total** | **≈ 36.9** | |
+1. **Technology drives volume and profit.** It accounts for 83K of 130K units (about 64%) and 6.6M of 8.4M profit (about 79%) (Derived).
+2. **Revenue leaders are not profit leaders.** The two ProBook laptops lead revenue but convert only about 13–14% of revenue to profit (Derived), while software licenses convert roughly 69–71% (Derived). The dashboard's own insight also flags products with low or negative profitability.
+3. **Office Supplies is high-volume, low-value.** It sells 31K units (about twice Furniture's 16K) but generates only 1.7M revenue and 0.5M profit, a margin of about 29% versus about 34% for the other categories (Derived).
 
-The shares are calculated from rounded labels and are approximate.
+### Recommendations
 
-### Insights and Recommendations
+- Review pricing and cost structure for high-revenue, low-margin laptops.
+- Evaluate bundling high-margin licenses and subscriptions with hardware sales.
+- Identify the specific products with negative profit (Workstation Elite 16 Laptop appears to show a negative profit label; verify) and decide on repricing or rationalization.
 
-- Freight accounts for more than 80% of total cost, so freight rates and load planning have the largest influence on spend.
-- Over half of all shipments (621 of 1,200) are flagged as underutilized. Consolidating loads or right-sizing vehicles may reduce cost.
-- Recommendation: define the underutilization threshold clearly, then test consolidation and vehicle-size changes on a pilot set of lanes.
-- The savings figures are **estimates based on assumed reduction rates (10% and 5%)**. They are **not guaranteed results**.
+> The Key Insights card on this page is partially covered by a tooltip in the screenshot, so the first insight is only partly legible.
 
 ---
 
-## 12. Key Project Insights
+## 11. Dashboard 3: Regional & Sales Representative Performance
 
-Insights below are limited to what the dashboards support.
+**Purpose (as stated on the page):** Track revenue, performance, and target achievement across regions and sales representatives.
 
-1. **Spend is above budget throughout the period.** Actual cost exceeds budget in all ten months shown.
-2. **Freight dominates cost.** About 84% of cost comes from freight; fuel surcharge, handling, toll, and other charges make up the rest.
-3. **Road FTL is the largest mode by volume.** 615 of 1,200 shipments (51.3%).
-4. **Carrier reliability varies widely.** On-time rates range from 66.10% (Ganga Carriers) to over 92% (SwiftHaul Express, Apex Parcel & Cargo, and Himalaya Cargo Movers).
-5. **Higher cost does not clearly mean better delivery.** Himalaya Cargo Movers has the highest cost per shipment and a high on-time rate, while SwiftHaul Express matches it on reliability at roughly half the cost per shipment (pending validation of the chart measure).
-6. **Actual transit time exceeds plan on every route shown.** Some routes, such as RT-051 and RT-073, are more than 20 hours over plan.
-7. **Vehicles run well below capacity.** Average utilization is 66.59%, and 51.75% of shipments are flagged as underutilized.
-8. **Estimated savings of about ₹2.04M** are possible under the stated 10% and 5% scenarios. These are assumptions, not forecasts.
+### KPI cards (Verified)
 
----
+| KPI | Value |
+|---|---|
+| Total Revenue | 25.08M |
+| Top Performing Region | West Coast |
+| Total Sales Representative | 40 |
+| Avg. Revenue per Representative | 626.90K |
 
-## 13. Business Value
+### Charts
 
-| Area | How the Dashboards Help |
-|------|-------------------------|
-| Cost control | Show where spend exceeds budget and which cost components dominate |
-| Carrier management | Support carrier scorecards and contract reviews |
-| Service levels | Highlight routes and carriers with delivery delays |
-| Capacity planning | Reveal underutilized vehicle types and load consolidation opportunities |
-| Planning | Give a baseline for evaluating cost-saving scenarios |
+| Chart | Type | What it shows |
+|---|---|---|
+| Revenue by Region | Horizontal bar | Same regional ranking as Dashboard 1 |
+| Actual Sales VS Sales By Representative (title as shown) | Bar with two series | Revenue: Jennifer Rivera 1.43M, Tyler Fisher 1.27M, Jennifer Ortiz 1.27M, Jason Rivera 1.14M, Susan Zimmerman 1.12M, Laura Young 1.09M, Patrick Grant 1.02M, Hannah Rivera 0.97M. Target labels shown: 28K, 37K, 25K, 24K, 32K, 21K, 37K, 19K respectively |
+| Representative Target Achievement | Horizontal bar | Unitless values: David Lopez 55, Laura Young 53, Hannah Rivera 52, Jennifer Ortiz 52, Jennifer Rivera 51, Brian Morgan 48, Jason Rivera 48, Sofia Ortiz 47, Grace Walker 46 |
+| Regional Profitability | Horizontal bar | Profit: West Coast 956.18K, Florida Peninsula 934.1K, Texas Gulf 836.26K, Pacific Northwest 802.57K, New York Metro 796.58K, Carolinas 686.3K, Midwest Central 663.39K, Mid-Atlantic 643.7K, Southeast 627.82K |
+| Monthly Regional Sales Trend | Matrix table (scrollable) | Revenue by month and region. Visible region totals: Carolinas 2,145,817.80; Florida Peninsula 2,816,094.55; Great Lakes 1,126,679.70; Mid-Atlantic 2,128,842.55; Midwest Central 1,909,355.25; Mountain West 1,398,115.00; New England 1,643,042.25; New York Metro 2,421,375.50; Pacific Northwest 2,228,259.70 |
 
-> Business value is **potential**. No actual savings or operational improvements have been measured.
+### Key insights
 
----
+1. **West Coast leads, and the gap to the bottom is wide.** West Coast earns 2.9M revenue and 956.18K profit. From the table totals, Great Lakes (about 1.13M) and Mountain West (about 1.40M) are the lowest regions, with Great Lakes at roughly 39% of West Coast revenue (Derived).
+2. **Top representatives far exceed the average.** Jennifer Rivera's 1.43M is about 2.3× the 626.90K average (Derived), and all eight representatives shown exceed the average. Because 40 representatives exist, revenue concentration among top performers should be checked.
+3. **Regional monthly revenue is volatile.** For example, Carolinas moves from 8,028.60 in March to 614,553.30 in April, and Great Lakes shows 1,079.85 in May. This may indicate lumpy deals or a data-grain issue (see V-10).
 
-## 14. Business Questions Answered
+### Recommendations
 
-- What is the total transportation cost and cost per shipment?
-- How does monthly actual cost compare with budget?
-- What share of shipments are on time, delayed, or pending?
-- Which destinations account for the highest transportation cost?
-- Which transportation modes carry the most shipments?
-- Which carriers are the most and least reliable?
-- Which carriers have the highest cost per shipment?
-- Which routes show the largest gap between planned and actual transit time?
-- How well are different vehicle types utilized?
-- How is total cost split across freight, fuel surcharge, handling, toll, and other charges?
-- What savings could result from the stated reduction scenarios?
+- Investigate Great Lakes and Mountain West for pipeline, coverage, or pricing gaps.
+- Review whether top-representative results reflect territory advantage or repeatable practices.
+- Define the sales-target methodology (period, grain, units) before using target-achievement figures in performance reviews.
 
 ---
 
-## 15. Technical Skills and Tools
+## 12. Dashboard 4: Customer & Revenue Analysis
 
-| Category | Details |
-|----------|---------|
-| Tool | Microsoft Excel |
-| Data analysis | PivotTables, PivotCharts, slicers |
-| Calculations | Excel formulas `[PLACEHOLDER]`, DAX measures `[PLACEHOLDER: if Power Pivot / data model used]` |
-| Visualization | KPI cards, bar, line, donut, pie, and column charts |
-| Domain skills | Transportation cost analysis, carrier performance, route analysis, capacity utilization |
-| Analytical skills | Budget variance analysis, KPI design, data validation |
+**Purpose (as stated on the page):** Understand customer segments, key accounts, and revenue trends to identify growth opportunities and improve customer retention.
+
+### KPI cards (Verified)
+
+| KPI | Value |
+|---|---|
+| Total Customer | 900 |
+| Avg. Order Value | 2.84K |
+| Revenue per Customer | 27.86K |
+| Repeat Purchase Rate | 92.33% |
+
+### Charts
+
+| Chart | Type | What it shows |
+|---|---|---|
+| Revenue by Customer Segment | Column | Enterprise 12.0M, Mid-Market 9.1M, Small Business 4.0M |
+| Top 10 Customers by Revenue | Horizontal bar (scrollable) | Hudson Consulting Group 0.45M, Franklin Freight Lines 0.41M, Dunmore Health Partners 0.40M, Copperfield Systems 0.34M, Paragon Systems 0.33M, Valley Medical Group 0.32M, Trailhead Capital Advisors 0.31M, Zenith Freight Lines 0.28M, Elmhurst Systems 0.27M (10th not visible) |
+| New vs Repeat Customers | Donut | Repeat 831 (92.33%), New 69 (7.67%), total 900 |
+| Revenue by Industry | Horizontal bar | Healthcare 3.9M, Technology 3.6M, Manufacturing 3.2M, Logistics 2.9M, Retail 2.5M, Financial Services 2.3M, Government & Nonprofit 2.3M, Professional Services 2.1M, Construction 1.4M, Education 0.9M |
+| Monthly Revenue Trends by Customer Segment | Overlapping area | Enterprise, Mid-Market, Small Business by month; month axis is not in calendar order (see V-13) |
+
+### Key insights
+
+1. **Enterprise is the core segment.** Enterprise generates 12.0M, about 47.8% of revenue; Mid-Market contributes about 36.3% and Small Business about 15.9% (Derived).
+2. **Retention appears strong.** 831 of 900 customers (92.33%) are classified as repeat, and the average customer places about 9.8 orders (8,818 ÷ 900, Derived). The "repeat" definition still needs confirmation (V-14).
+3. **Industry mix is led by Healthcare, with low account concentration.** Healthcare contributes 3.9M (about 15.5%), and the top three industries together contribute about 42.7% (Derived). The largest visible customer (0.45M) is only about 1.8% of revenue, so revenue is not dependent on any single account (Derived).
+
+### Recommendations
+
+- Build retention and expansion plans for the top accounts and Enterprise segment.
+- Test targeted growth offers for Small Business, the smallest segment.
+- Consider vertical-specific campaigns for Healthcare and Technology, and review under-penetrated industries such as Education and Construction.
 
 ---
 
-## 16. Project Structure
+## 13. Key Project Insights
 
-`[PLACEHOLDER: update to match your repository.]`
+| Theme | Finding | Evidence |
+|---|---|---|
+| Growth timing | Revenue builds through the year and peaks in Q4 (7.5M) and December (2.8M) | Verified |
+| Profitability | Overall margin is 33.49%; category margins are about 29%–34% | Verified / Derived |
+| Category concentration | Technology provides about 78% of revenue and about 79% of profit | Derived |
+| Product quality of revenue | Top-revenue laptops have thin margins; software licenses have high margins | Verified / Derived |
+| Regional spread | West Coast (2.9M) vs. Great Lakes (about 1.13M) | Verified / Derived |
+| Customer base | 900 customers, 92.33% repeat, Enterprise about 48% of revenue | Verified / Derived |
+
+---
+
+## 14. Business Value
+
+- **Executives** get a consistent view of revenue, margin, and seasonality.
+- **Product teams** can see where volume does not translate to profit and prioritize pricing and cost reviews.
+- **Sales leaders** can compare regions and representatives and identify coverage gaps.
+- **Account teams** can focus on key accounts, segments, and industries and monitor retention.
+- **Analytics governance** is supported by documenting metric-definition questions rather than hiding them.
+
+---
+
+## 15. Business Questions Answered
+
+| Dashboard | Questions |
+|---|---|
+| Executive Sales Overview | How much revenue and profit did we generate? Is margin stable? Which quarter, region, and category contribute most? How does revenue trend by month? |
+| Product Performance | Which products and categories sell the most units and revenue? Which are the most and least profitable? How do category sales trend by month? |
+| Regional & Sales Rep | Which region leads? How many representatives do we have and what is average revenue per representative? Who are the top representatives? Which regions are most profitable? How does monthly revenue vary by region? |
+| Customer & Revenue | How many customers do we have? What is the average order value and revenue per customer? How many customers are repeat vs. new? Which segments, industries, and accounts generate the most revenue? |
+
+---
+
+## 16. Technical Skills and Tools
+
+| Area | Skills / tools |
+|---|---|
+| BI tool | Power BI (inferred from the report interface; **[PLACEHOLDER: confirm this information]**) |
+| Calculations | KPI design, ratio measures, DAX (reference examples; actual measures **[PLACEHOLDER: confirm this information]**) |
+| Visualization | Column, bar, line, area, donut, KPI cards, matrix table, slicers, page navigation |
+| Analytics | Revenue and profitability analysis, product mix analysis, regional and representative benchmarking, customer segmentation, retention analysis |
+| Data quality | Cross-page reconciliation, metric-definition review, chart-design review |
+| Communication | Embedded key-insight summaries for business audiences |
+
+---
+
+## 17. Project Structure
+
+> Folder and file names below are a proposed layout. Mark each as confirmed once it exists in the repository. **[PLACEHOLDER: confirm this information]**
 
 ```text
-transportation-logistics-optimization/
+sales-marketing-analytics/
 │
 ├── README.md
-├── data/
-│   ├── raw/                        # [PLACEHOLDER: raw dataset]
-│   └── cleaned/                    # [PLACEHOLDER: cleaned dataset]
-├── excel/
-│   └── Transportation_Logistics_Dashboard.xlsx   # [PLACEHOLDER: file name]
+│
+├── data/                                   # [PLACEHOLDER] raw / processed data files
+│   └── sales_data.xlsx                     # [PLACEHOLDER] filename unverified
+│
+├── dashboard/
+│   └── Sales_Marketing_Analytics.pbix      # [PLACEHOLDER] filename unverified
+│
 ├── images/
-│   ├── dashboard_1_transportation_performance.png
-│   ├── dashboard_2_carrier_route_optimization.png
-│   ├── dashboard_3_vehicle_utilization_cost_saving.png
-│   └── data_model.png              # [PLACEHOLDER]
-└── docs/
-    └── data_dictionary.md          # [PLACEHOLDER]
+│   ├── dashboard_1_executive_sales_overview.png
+│   ├── dashboard_2_product_performance.png
+│   ├── dashboard_3_regional_sales_performance.png
+│   └── dashboard_4_customer_revenue_analysis.png
+│
+└── docs/                                   # [PLACEHOLDER] optional: data dictionary, measure list
 ```
 
 ---
 
-## 17. Data Validation Notes
+## 18. Data Validation Notes
 
-The items below were found while reviewing the screenshots. Resolve them or document the reasons before publishing.
+This section records observations from the four screenshots. **No issue below is claimed to be fixed.** Items marked *Open* require review of the underlying report and data.
 
-### 17.1 Metric Inconsistencies
+### 18.1 Checks that reconcile
 
-| # | Issue | Evidence | Suggested Action |
-|---|-------|----------|------------------|
-| 1 | **On-time rate does not match the delivery status chart** | KPI shows 89.05%. The donut shows 993 on time of 1,200 (82.75%), or 993 of 1,160 excluding pending (85.60%). The average of the 12 carrier rates is also ~83%. | Confirm the formula and denominator. Correct the KPI or document the definition. |
-| 2 | **"Lowest Cost per Shipment" (₹5,127)** | The lowest carrier-level cost per shipment in the bottom-right chart is ~₹22.5K. | Clarify whether ₹5,127 is a single-shipment minimum. Rename the KPI accordingly. |
-| 3 | **Chart title does not match content** | "Carrier Cost vs On Time Delivery" shows a single "Total" series in ₹K and no on-time data. | Rename it, or plot cost and on-time rate together (e.g., scatter or combo chart). |
-| 4 | **Status labels differ between dashboards** | Dashboard 1 uses "Pending" (40); Dashboard 3 uses "In Transit" (40). | Confirm whether these are the same shipments and standardize terms. |
-| 5 | **Failed delivery rate not traceable** | 4.17% ≈ 50 of 1,200 shipments, but the status chart shows only 19 Returned. | Document which statuses or flags are counted. |
-| 6 | **Average delay (29.03 hrs) vs. route transit gaps** | Route-level gaps shown are about 5–22 hours. | Clarify whether 29.03 is the average over delayed shipments only. |
-| 7 | **Route cost variance (5.35%)** | Overall variance from the monthly chart is roughly 6%. | Document the scope (filtered vs. full dataset). |
-| 8 | **Underutilization threshold undefined** | 621 shipments flagged, but the threshold is not stated. | Document the threshold (e.g., utilization below X%). |
-| 9 | **"Excess cost" definition** | ₹1,962.9K matches actual minus budget only if "excess" means total overrun. | Document the formula. |
+| Check | Result |
+|---|---|
+| Profit ÷ Revenue = 8.40M ÷ 25.08M | 33.49% matches the KPI |
+| Quarterly revenue (5.9 + 6.1 + 5.6 + 7.5) and profit (1.9 + 2.0 + 2.0 + 2.5) | About 25.1M and 8.4M; match totals within rounding |
+| Category revenue (19.5 + 3.8 + 1.7) | About 25.0M; matches within rounding |
+| Category profit (6.6 + 1.3 + 0.5) | 8.4M; matches |
+| Category units (83K + 31K + 16K) | 130K; matches |
+| Region revenue (12 regions, including Great Lakes and Mountain West from the Dashboard 3 table) | About 25.1M; matches within rounding |
+| Region totals in the Dashboard 3 table vs. region bars | Match for all regions visible in both |
+| Revenue per representative (25.08M ÷ 40) | About 627.0K vs. 626.90K shown; matches within rounding |
+| Average order value (25.08M ÷ 8,818) | About 2,844; matches 2.84K |
+| Revenue per customer (25.08M ÷ 900) | About 27.87K vs. 27.86K shown; matches within rounding |
+| Repeat rate (831 ÷ 900) and new rate (69 ÷ 900) | 92.33% and 7.67%; match |
+| Customer segment (12.0 + 9.1 + 4.0) and industry (sum of 10 values) | About 25.1M each; match within rounding |
+| Dashboard 4 segment values for December (1.38 + 0.94 + 0.45) vs. Dashboard 1 December (2.8M) | About 2.77M; matches |
 
-### 17.2 Slicer Behavior
+### 18.2 Open issues
 
-Slicers on all three dashboards show single selections (e.g., Destination = Agra, Carrier_ID = CAR-01, Route_ID = RT-001), yet KPIs and charts still show full-dataset totals (e.g., 1,200 shipments, all 12 carriers, ₹36.87M total in the carrier chart). The slicers may not be connected to all PivotTables, or the screenshots may have been taken without active filters. **⚠️ Validate** slicer connections.
-
-### 17.3 Chart and Formatting Issues
-
-- Dashboard 1, monthly cost trend: months are in alphabetical order (Apr, Aug, Feb, ...). Sort chronologically.
-- Dashboard 1 title and KPI typos: "Transportatin" (chart title) and "AVRAGE" (KPI label).
-- Several data labels are cut off or overlap (QuickLoad and MetroLink on-time labels, 32ft SXL utilization, RT-010 actual transit label).
-- On-time rate by route shows values such as 74.4 and 83.0 without a % sign.
-- 3D column and bar charts make values harder to compare. Consider 2D charts.
-- Currency formatting is mixed (₹ on some labels, none on KPI cards). Use one format.
-- "Order_Date" slicer starts at 2026-01-01. Confirm whether October is a full month (it shows the lowest monthly cost).
-
-### 17.4 Simulated Data and Estimates
-
-- `[PLACEHOLDER: confirm whether the dataset is synthetic / simulated. If so, say so prominently at the top of this README.]`
-- All savings figures are **scenario-based estimates** and should not be presented as realized or guaranteed savings.
-- Figures taken from chart labels are rounded and may differ slightly from underlying values.
-
----
-
-## 18. Dashboard Preview
-
-> Replace the paths below with your actual image files.
-
-### Dashboard 1: Transportation Performance Overview
-![Transportation Performance Overview](images/dashboard_1_transportation_performance.png)
-
-### Dashboard 2: Carrier & Route Optimization
-![Carrier & Route Optimization](images/dashboard_2_carrier_route_optimization.png)
-
-### Dashboard 3: Vehicle Utilization & Cost Saving
-![Vehicle Utilization & Cost Saving](images/dashboard_3_vehicle_utilization_cost_saving.png)
+| ID | Dashboard | Observation | Why it matters | Status |
+|---|---|---|---|---|
+| V-01 | 1 | Revenue Growth shows exactly **10.00%** with no comparison period or baseline. | Exact round values can indicate a hard-coded, placeholder, or poorly defined measure. | Open |
+| V-02 | 1 | "Actual Sales VS Sales Target" has a single series, no legend, no units, and no visible target. Values (915 down to 627) are sorted by value, not by month, so months appear out of order. The 12 values sum to about 8,827, close to Total Orders (8,818), which suggests the chart may show monthly order counts rather than sales vs. target. | Title, data, and sort order may not match; an area chart is also a poor fit for ranked categories. | Open |
+| V-03 | 1 vs 2 | Dashboard 2 shows Technology revenue of about 2.2M in August, higher than total August revenue of 1.9M on Dashboard 1. December Technology (1.4M) plus the other two categories (about 0.6M) is about 2.0M vs. 2.8M on Dashboard 1. Annual totals reconcile, and Dashboard 4 monthly segment values match Dashboard 1. | The monthly category chart on Dashboard 2 may use a different date field, filter, or month mapping. | Open |
+| V-04 | 2 | KPI is labeled "Total Selling Product" (likely "Top Selling Product") and shows Productivity Suite License, while Revenue by Product ranks ProBook 15 Performance Laptop first and the page insight calls it the top-revenue product. | The KPI likely ranks by units, but the basis is not labeled. | Open |
+| V-05 | 2 | Typos in titles: "Revenue By Porduct", "Profit By Product Caregory", "Total Unit Sold". | Professional polish. | Open |
+| V-06 | 2 | Revenue vs Profit by Product has overlapping data labels, and Workstation Elite 16 Laptop appears to carry a negative profit label while the axis starts at 0. The insight mentions "low or negative" profitability without naming products. | Negative values are hard to read and unverified. | Open |
+| V-07 | 2 | Key Insights card is partially covered by a tooltip in the screenshot. | Text could not be fully verified. | Open |
+| V-08 | 3 | Chart title reads "Actual Sales VS Sales By Representative" (likely "Sales Target"). | Misleading label. | Open |
+| V-09 | 3 | Representative revenue (0.97M–1.43M) and target labels (19K–37K) differ by about 28×–52×. "Representative Target Achievement" shows unitless values (46–55) that cannot be reconciled with those figures. The top achiever (David Lopez, 55) is not among the top revenue representatives shown. | Targets may be monthly or per-order while revenue is annual, or achievement may use another formula. Do not publish attainment percentages until period and grain are confirmed. | Open |
+| V-10 | 3 | "Monthly Regional Sales Trend" is a scrollable matrix table, not a trend visual, and the July row and several region columns are cut off. Monthly values swing widely (e.g., Carolinas 8,028.60 in March, 614,553.30 in April). | Trend is hard to read; volatility should be confirmed as real rather than a data-grain issue. | Open |
+| V-11 | 3 | "Regional Profitability" shows absolute profit, not margin. Pacific Northwest profit (802.57K) exceeds New York Metro (796.58K) despite lower revenue (2.2M vs. 2.4M). | Absolute profit hides margin differences. | Open |
+| V-12 | 1, 2, 3 | Revenue by Region appears on both Dashboard 1 and 3; Total Revenue (25.08M) and profit margin (33.49%) repeat across pages. | Duplicate visuals add little; consider replacing with new analysis. | Open |
+| V-13 | 4 | Monthly Revenue Trends by Customer Segment lists months out of calendar order (December, November, October, June, March, January, April, September, May, August, February, July) and uses overlapping filled areas. Dashboard 1 uses January–December order. | Trend direction cannot be read reliably; inconsistent sorting between pages. | Open |
+| V-14 | 4 | Repeat Purchase Rate (92.33%) has no definition. The measure also sits on a page with Year and Month slicers. | The result of "repeat" classification may change with filters. | Open |
+| V-15 | 4 | Top 10 Customers chart shows nine bars without scrolling. | Tenth customer not verified. | Open |
+| V-16 | All | KPI cards show no currency or unit labels, while insight text uses "$". | Ambiguous units. | Open |
+| V-17 | All | Slicers differ by page (e.g., Category and Customer_Segment only on Dashboard 1; Sales_Rep_Name only on Dashboard 2). Cross-page slicer sync and filter behavior were not tested. | Consistent filtering across pages is unverified. | Open |
+| V-18 | 2, 3, 4 | Colors are reused for different meanings (orange is Technology on Dashboard 2, Small Business on Dashboard 4, and Revenue by Region on Dashboard 3). | Can mislead cross-page comparison. | Open |
 
 ---
 
-## 19. Connect With Me
+## 19. Dashboard Preview
 
-**Name:** `[PLACEHOLDER]`
-**Role:** Supply Chain / Data Analyst
-**LinkedIn:** `[PLACEHOLDER: link]`
-**GitHub:** `[PLACEHOLDER: link]`
-**Email:** `[PLACEHOLDER]`
-**Portfolio:** `[PLACEHOLDER]`
+> Image paths are proposed. Add the screenshots to the `images/` folder with these filenames (or update the paths).
+
+### Dashboard 1: Executive Sales Overview
+![Executive Sales Overview dashboard showing revenue, profit, margin, growth, orders, quarterly, regional, category, and monthly trends](images/dashboard_1_executive_sales_overview.png)
+
+### Dashboard 2: Product Performance Analysis
+![Product Performance Analysis dashboard showing units sold, product revenue, category profit, and monthly category trends](images/dashboard_2_product_performance.png)
+
+### Dashboard 3: Regional & Sales Representative Performance
+![Regional and Sales Representative Performance dashboard showing regional revenue, representative results, target achievement, and monthly regional table](images/dashboard_3_regional_sales_performance.png)
+
+### Dashboard 4: Customer & Revenue Analysis
+![Customer and Revenue Analysis dashboard showing customer segments, top customers, new vs repeat customers, industries, and monthly segment trends](images/dashboard_4_customer_revenue_analysis.png)
 
 ---
 
-⭐ If you found this project useful, consider giving the repository a star.
+## 20. Connect With Me
+
+> Contact details were not available. Replace the placeholders with the details from your existing portfolio README so this section matches your other projects.
+
+- **Name:** [PLACEHOLDER: confirm this information]
+- **LinkedIn:** [PLACEHOLDER: confirm this information]
+- **GitHub:** [PLACEHOLDER: confirm this information]
+- **Email:** [PLACEHOLDER: confirm this information]
+- **Portfolio:** [PLACEHOLDER: confirm this information]
+
+If you found this project useful, consider giving the repository a star.
