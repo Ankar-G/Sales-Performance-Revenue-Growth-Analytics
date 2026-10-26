@@ -496,16 +496,16 @@ This section records observations from the four screenshots. **No issue below is
 > Image paths are proposed. Add the screenshots to the `images/` folder with these filenames (or update the paths).
 
 ### Dashboard 1: Executive Sales Overview
-![Executive Sales Overview dashboard showing revenue, profit, margin, growth, orders, quarterly, regional, category, and monthly trends](images/dashboard_1_executive_sales_overview.png)
+![Executive Sales Overview dashboard showing revenue, profit, margin, growth, orders, quarterly, regional, category, and monthly trends](https://github.com/Ankar-G/Sales-Performance-Revenue-Growth-Analytics/blob/main/Dashboard%20Screenshots/Dashboard%201.png)
 
 ### Dashboard 2: Product Performance Analysis
-![Product Performance Analysis dashboard showing units sold, product revenue, category profit, and monthly category trends](images/dashboard_2_product_performance.png)
+![Product Performance Analysis dashboard showing units sold, product revenue, category profit, and monthly category trends](https://github.com/Ankar-G/Sales-Performance-Revenue-Growth-Analytics/blob/main/Dashboard%20Screenshots/Dashboard%202.png)
 
 ### Dashboard 3: Regional & Sales Representative Performance
-![Regional and Sales Representative Performance dashboard showing regional revenue, representative results, target achievement, and monthly regional table](images/dashboard_3_regional_sales_performance.png)
+![Regional and Sales Representative Performance dashboard showing regional revenue, representative results, target achievement, and monthly regional table](https://github.com/Ankar-G/Sales-Performance-Revenue-Growth-Analytics/blob/main/Dashboard%20Screenshots/Dashboard%203.png)
 
 ### Dashboard 4: Customer & Revenue Analysis
-![Customer and Revenue Analysis dashboard showing customer segments, top customers, new vs repeat customers, industries, and monthly segment trends](images/dashboard_4_customer_revenue_analysis.png)
+![Customer and Revenue Analysis dashboard showing customer segments, top customers, new vs repeat customers, industries, and monthly segment trends](https://github.com/Ankar-G/Sales-Performance-Revenue-Growth-Analytics/blob/main/Dashboard%20Screenshots/Dashboard%204.png)
 
 ---
 
@@ -513,10 +513,9 @@ This section records observations from the four screenshots. **No issue below is
 
 > Contact details were not available. Replace the placeholders with the details from your existing portfolio README so this section matches your other projects.
 
-- **Name:** [PLACEHOLDER: confirm this information]
-- **LinkedIn:** [PLACEHOLDER: confirm this information]
-- **GitHub:** [PLACEHOLDER: confirm this information]
-- **Email:** [PLACEHOLDER: confirm this information]
-- **Portfolio:** [PLACEHOLDER: confirm this information]
+- **Name:** [PLACEHOLDER: Ankar Goswami]
+- **LinkedIn:** [PLACEHOLDER: https://www.linkedin.com/in/ankar-goswami-23a196245/]
+- **GitHub:** [PLACEHOLDER: https://github.com/Ankar-G]
+- **Email:** [PLACEHOLDER: goswamijit99@gmail.com]
 
 If you found this project useful, consider giving the repository a star.
