@@ -1,0 +1,41 @@
+Product_ID,Product_Name,Category,Subcategory,Unit_Cost,List_Price
+PRD-001,ProBook 14 Business Laptop,Technology,Laptops,780,1019
+PRD-002,ProBook 15 Performance Laptop,Technology,Laptops,1020,1319
+PRD-003,Workstation Elite 16 Laptop,Technology,Laptops,1650,2149
+PRD-004,UltraSlim 13 Laptop,Technology,Laptops,890,1169
+PRD-005,24-inch FHD Monitor,Technology,Monitors,118,179
+PRD-006,27-inch QHD Monitor,Technology,Monitors,205,319
+PRD-007,32-inch 4K Monitor,Technology,Monitors,335,519
+PRD-008,34-inch Ultrawide Monitor,Technology,Monitors,390,599
+PRD-009,WiFi 6 Access Point,Technology,Networking,92,149
+PRD-010,24-Port Gigabit Switch,Technology,Networking,135,219
+PRD-011,Business Router Pro,Technology,Networking,160,259
+PRD-012,Network Firewall Appliance,Technology,Networking,520,849
+PRD-013,Wireless Keyboard and Mouse Combo,Technology,Accessories,28,49
+PRD-014,USB-C Docking Station,Technology,Accessories,105,169
+PRD-015,HD Webcam,Technology,Accessories,42,79
+PRD-016,Noise-Cancelling Headset,Technology,Accessories,68,119
+PRD-017,Productivity Suite License,Technology,Software,38,120
+PRD-018,Endpoint Security License,Technology,Software,45,149
+PRD-019,Cloud Backup Subscription,Technology,Software,52,179
+PRD-020,Project Management Platform License,Technology,Software,60,199
+PRD-021,Ergonomic Task Chair,Furniture,Chairs,130,219
+PRD-022,Executive Leather Chair,Furniture,Chairs,240,399
+PRD-023,Conference Room Chair,Furniture,Chairs,82,139
+PRD-024,Visitor Guest Chair,Furniture,Chairs,66,109
+PRD-025,Height-Adjustable Desk,Furniture,Desks,275,449
+PRD-026,Standard Office Desk,Furniture,Desks,150,249
+PRD-027,Executive Desk,Furniture,Desks,365,599
+PRD-028,4-Drawer Filing Cabinet,Furniture,Storage,105,169
+PRD-029,5-Shelf Bookcase,Furniture,Storage,78,129
+PRD-030,Storage Credenza,Furniture,Storage,175,289
+PRD-031,Copy Paper Case (10 Reams),Office Supplies,Paper,38,52
+PRD-032,Premium Presentation Paper Case,Office Supplies,Paper,46,68
+PRD-033,Monochrome Laser Printer,Office Supplies,Printers,165,239
+PRD-034,Color Laser Printer,Office Supplies,Printers,290,429
+PRD-035,Black Toner Cartridge,Office Supplies,Ink & Toner,58,89
+PRD-036,Color Toner Set,Office Supplies,Ink & Toner,175,269
+PRD-037,Premium Pen Box (50 ct),Office Supplies,Writing & Organization,14,26
+PRD-038,Desk Organizer Set,Office Supplies,Writing & Organization,17,32
+PRD-039,Whiteboard 4x6 ft,Office Supplies,Writing & Organization,62,109
+PRD-040,Binder and Folder Pack,Office Supplies,Writing & Organization,11,22

@@ -1,0 +1,901 @@
+Customer_ID,Customer_Name,Customer_Segment,Industry,City,Region_ID,Acquisition_Date
+CUS-0001,Lighthouse Retail Group,Small Business,Retail,Raleigh,REG-12,2018-01-17
+CUS-0002,Monroe Components Inc.,Mid-Market,Manufacturing,Los Angeles,REG-01,2018-01-23
+CUS-0003,Meridian Public Services,Mid-Market,Government & Nonprofit,Peoria,REG-05,2018-01-26
+CUS-0004,Kingsley Public Services,Small Business,Government & Nonprofit,Detroit,REG-06,2018-02-05
+CUS-0005,Rosewood Retail Group,Small Business,Retail,Seattle,REG-02,2018-02-05
+CUS-0006,Rosewood Distribution,Mid-Market,Logistics,Rochester,REG-08,2018-02-22
+CUS-0007,Eastgate Logistics,Small Business,Logistics,Savannah,REG-10,2018-03-01
+CUS-0008,Delta Community Foundation,Small Business,Government & Nonprofit,Rochester,REG-08,2018-03-13
+CUS-0009,Monroe Family Clinics,Enterprise,Healthcare,Dallas,REG-04,2018-03-16
+CUS-0010,Noble Stores,Small Business,Retail,Spokane,REG-02,2018-03-27
+CUS-0011,Lincoln Health Partners,Mid-Market,Healthcare,Orlando,REG-11,2018-04-04
+CUS-0012,Valley Housing Authority,Small Business,Government & Nonprofit,Springfield,REG-05,2018-04-05
+CUS-0013,Granite Components Inc.,Mid-Market,Manufacturing,San Francisco,REG-01,2018-04-09
+CUS-0014,Paragon Health Partners,Mid-Market,Healthcare,Fort Collins,REG-03,2018-04-10
+CUS-0015,Valley Law Partners,Small Business,Professional Services,Marietta,REG-10,2018-04-13
+CUS-0016,Jasper Technologies,Enterprise,Technology,Naperville,REG-05,2018-04-18
+CUS-0017,Beacon Components Inc.,Enterprise,Manufacturing,Dallas,REG-04,2018-05-01
+CUS-0018,Franklin Credit Union,Small Business,Financial Services,Harrisburg,REG-07,2018-05-14
+CUS-0019,Newport Technologies,Small Business,Technology,Seattle,REG-02,2018-05-23
+CUS-0020,Lincoln Supply Chain Services,Mid-Market,Logistics,Marietta,REG-10,2018-06-07
+CUS-0021,Keystone Financial Group,Enterprise,Financial Services,Sacramento,REG-01,2018-06-08
+CUS-0022,Willow Outfitters,Small Business,Retail,Boston,REG-09,2018-06-26
+CUS-0023,Hillcrest Contracting,Mid-Market,Construction,Chicago,REG-05,2018-07-03
+CUS-0024,Upland Outfitters,Small Business,Retail,Chicago,REG-05,2018-07-05
+CUS-0025,Cedar Learning Institute,Small Business,Education,Charlotte,REG-12,2018-07-06
+CUS-0026,Lighthouse Regional Alliance,Small Business,Government & Nonprofit,Boston,REG-09,2018-07-18
+CUS-0027,Willow Precision Fabrication,Small Business,Manufacturing,Albany,REG-08,2018-07-20
+CUS-0028,Hawthorn Credit Union,Mid-Market,Financial Services,Charlotte,REG-12,2018-07-24
+CUS-0029,Dunmore Outfitters,Small Business,Retail,Tampa,REG-11,2018-07-30
+CUS-0030,Ironwood Public Services,Small Business,Government & Nonprofit,Atlanta,REG-10,2018-07-30
+CUS-0031,Trailhead Care Associates,Small Business,Healthcare,Peoria,REG-05,2018-08-01
+CUS-0032,Gateway Law Partners,Mid-Market,Professional Services,Ann Arbor,REG-06,2018-08-07
+CUS-0033,Redwood Marketplace,Mid-Market,Retail,Los Angeles,REG-01,2018-08-08
+CUS-0034,Cobalt Community Foundation,Mid-Market,Government & Nonprofit,Tacoma,REG-02,2018-08-09
+CUS-0035,Independence Retail Group,Mid-Market,Retail,Chicago,REG-05,2018-08-10
+CUS-0036,Dunmore Consulting Group,Small Business,Professional Services,Miami,REG-11,2018-08-22
+CUS-0037,Cedar Consulting Group,Mid-Market,Professional Services,Fort Collins,REG-03,2018-08-22
+CUS-0038,Eastgate Builders,Small Business,Construction,Pittsburgh,REG-07,2018-08-23
+CUS-0039,Onyx Technologies,Mid-Market,Technology,Lansing,REG-06,2018-08-27
+CUS-0040,Apex Financial Group,Mid-Market,Financial Services,Sacramento,REG-01,2018-08-27
+CUS-0041,Ironwood Health Partners,Small Business,Healthcare,Durham,REG-12,2018-08-30
+CUS-0042,Birchwood Manufacturing Co.,Mid-Market,Manufacturing,Orlando,REG-11,2018-09-05
+CUS-0043,Apex Builders,Small Business,Construction,Allentown,REG-07,2018-09-05
+CUS-0044,Sunrise Engineering Group,Small Business,Construction,Worcester,REG-09,2018-09-21
+CUS-0045,Hillcrest Marketplace,Small Business,Retail,Denver,REG-03,2018-09-25
+CUS-0046,Onyx Industries,Mid-Market,Manufacturing,Albany,REG-08,2018-10-22
+CUS-0047,Union Consulting Group,Small Business,Professional Services,New York,REG-08,2018-10-24
+CUS-0048,Rosewood Public Services,Small Business,Government & Nonprofit,Seattle,REG-02,2018-10-25
+CUS-0049,Foxwood Health Partners,Mid-Market,Healthcare,Sacramento,REG-01,2018-10-25
+CUS-0050,Whitaker Housing Authority,Small Business,Government & Nonprofit,Springfield,REG-09,2018-10-30
+CUS-0051,Evergreen Health Partners,Mid-Market,Healthcare,Rochester,REG-08,2018-11-05
+CUS-0052,Zenith Law Partners,Small Business,Professional Services,Harrisburg,REG-07,2018-11-08
+CUS-0053,Bridgeport Accounting Associates,Small Business,Professional Services,Pittsburgh,REG-07,2018-11-09
+CUS-0054,Franklin Health Partners,Mid-Market,Healthcare,Rochester,REG-08,2018-11-21
+CUS-0055,Lakeside Housing Authority,Enterprise,Government & Nonprofit,Austin,REG-04,2018-12-05
+CUS-0056,Kestrel Software Labs,Mid-Market,Technology,Denver,REG-03,2018-12-10
+CUS-0057,Trailhead Contracting,Mid-Market,Construction,Jacksonville,REG-11,2018-12-12
+CUS-0058,Clearview Logistics,Mid-Market,Logistics,Worcester,REG-09,2018-12-12
+CUS-0059,Eastgate Stores,Mid-Market,Retail,Pittsburgh,REG-07,2018-12-26
+CUS-0060,Ironwood Systems,Small Business,Technology,Spokane,REG-02,2018-12-31
+CUS-0061,Quartz Retail Group,Mid-Market,Retail,Grand Rapids,REG-06,2019-01-03
+CUS-0062,Oakmont Technologies,Mid-Market,Technology,Boston,REG-09,2019-01-08
+CUS-0063,Riverbend Precision Fabrication,Small Business,Manufacturing,Worcester,REG-09,2019-01-09
+CUS-0064,Jefferson Training Center,Mid-Market,Education,Bellevue,REG-02,2019-01-10
+CUS-0065,Ivy Lane Marketplace,Small Business,Retail,Miami,REG-11,2019-01-11
+CUS-0066,Timberline Stores,Mid-Market,Retail,Austin,REG-04,2019-01-18
+CUS-0067,Quail Run Construction Co.,Small Business,Construction,San Antonio,REG-04,2019-01-24
+CUS-0068,Fairmont Community Foundation,Small Business,Government & Nonprofit,Colorado Springs,REG-03,2019-01-25
+CUS-0069,Delta Builders,Enterprise,Construction,Harrisburg,REG-07,2019-01-29
+CUS-0070,Lighthouse Builders,Small Business,Construction,Tacoma,REG-02,2019-01-31
+CUS-0071,Jefferson Advisory Services,Mid-Market,Professional Services,Bellevue,REG-02,2019-02-07
+CUS-0072,Glenwood Community Foundation,Small Business,Government & Nonprofit,Augusta,REG-10,2019-02-13
+CUS-0073,Jefferson Health Partners,Enterprise,Healthcare,Worcester,REG-09,2019-02-14
+CUS-0074,Delta Logistics,Small Business,Logistics,San Jose,REG-01,2019-03-20
+CUS-0075,Paragon Marketplace,Small Business,Retail,Austin,REG-04,2019-03-21
+CUS-0076,Upland Stores,Small Business,Retail,Cambridge,REG-09,2019-03-29
+CUS-0077,Evergreen Precision Fabrication,Enterprise,Manufacturing,Boston,REG-09,2019-04-01
+CUS-0078,Ivy Lane Health Partners,Mid-Market,Healthcare,Springfield,REG-09,2019-04-03
+CUS-0079,Clearview Precision Fabrication,Small Business,Manufacturing,Tacoma,REG-02,2019-04-15
+CUS-0080,Alder Academy,Mid-Market,Education,Bellevue,REG-02,2019-04-22
+CUS-0081,Crestview Training Center,Small Business,Education,Denver,REG-03,2019-04-22
+CUS-0082,Mosaic Capital Advisors,Small Business,Financial Services,Buffalo,REG-08,2019-04-26
+CUS-0083,Riverbend Medical Group,Small Business,Healthcare,New York,REG-08,2019-04-30
+CUS-0084,Copperfield Systems,Enterprise,Technology,Greensboro,REG-12,2019-05-06
+CUS-0085,Glenwood Software Labs,Small Business,Technology,Charlotte,REG-12,2019-05-10
+CUS-0086,Orchard Community Foundation,Mid-Market,Government & Nonprofit,Fort Collins,REG-03,2019-05-15
+CUS-0087,Kestrel Regional Alliance,Small Business,Government & Nonprofit,New York,REG-08,2019-05-21
+CUS-0088,Franklin Manufacturing Co.,Small Business,Manufacturing,Allentown,REG-07,2019-05-22
+CUS-0089,Silverline Consulting Group,Small Business,Professional Services,Philadelphia,REG-07,2019-05-28
+CUS-0090,Sterling Credit Union,Mid-Market,Financial Services,Durham,REG-12,2019-06-05
+CUS-0091,Quail Run Builders,Small Business,Construction,Worcester,REG-09,2019-06-07
+CUS-0092,Meridian Construction Co.,Mid-Market,Construction,Albany,REG-08,2019-06-10
+CUS-0093,Orchard Technologies,Small Business,Technology,Bellevue,REG-02,2019-06-13
+CUS-0094,Ivy Lane Advisory Services,Small Business,Professional Services,Tacoma,REG-02,2019-06-17
+CUS-0095,Valley Training Center,Small Business,Education,San Antonio,REG-04,2019-07-09
+CUS-0096,Glenwood Builders,Small Business,Construction,Charlotte,REG-12,2019-07-09
+CUS-0097,Willow Components Inc.,Small Business,Manufacturing,Denver,REG-03,2019-07-19
+CUS-0098,Independence Construction Co.,Small Business,Construction,Sacramento,REG-01,2019-07-22
+CUS-0099,Elmhurst Retail Group,Mid-Market,Retail,Jacksonville,REG-11,2019-07-23
+CUS-0100,Quail Run Financial Group,Small Business,Financial Services,Bellevue,REG-02,2019-08-01
+CUS-0101,Pinnacle Wealth Management,Mid-Market,Financial Services,San Jose,REG-01,2019-08-05
+CUS-0102,Lincoln Accounting Associates,Mid-Market,Professional Services,Buffalo,REG-08,2019-08-09
+CUS-0103,Harbor Contracting,Mid-Market,Construction,Marietta,REG-10,2019-08-22
+CUS-0104,Birchwood Family Clinics,Mid-Market,Healthcare,Detroit,REG-06,2019-08-22
+CUS-0105,Keystone Software Labs,Mid-Market,Technology,Boston,REG-09,2019-08-22
+CUS-0106,Cedar Stores,Mid-Market,Retail,Rochester,REG-08,2019-08-26
+CUS-0107,Lakeside Marketplace,Mid-Market,Retail,Greensboro,REG-12,2019-08-30
+CUS-0108,Newport Digital Solutions,Small Business,Technology,Boston,REG-09,2019-09-04
+CUS-0109,Stonebridge Wealth Management,Small Business,Financial Services,Springfield,REG-09,2019-09-05
+CUS-0110,Seaboard Precision Fabrication,Enterprise,Manufacturing,Savannah,REG-10,2019-09-12
+CUS-0111,Heritage Outfitters,Mid-Market,Retail,San Jose,REG-01,2019-09-16
+CUS-0112,Prairie Public Services,Small Business,Government & Nonprofit,Ann Arbor,REG-06,2019-09-16
+CUS-0113,Sunrise Family Clinics,Enterprise,Healthcare,Springfield,REG-05,2019-09-19
+CUS-0114,Lakeshore Outfitters,Small Business,Retail,Denver,REG-03,2019-09-20
+CUS-0115,Empire Stores,Small Business,Retail,New York,REG-08,2019-10-01
+CUS-0116,Jefferson Family Clinics,Mid-Market,Healthcare,Buffalo,REG-08,2019-10-01
+CUS-0117,Lighthouse Housing Authority,Small Business,Government & Nonprofit,Lansing,REG-06,2019-10-08
+CUS-0118,Crestview Public Services,Small Business,Government & Nonprofit,Dallas,REG-04,2019-10-09
+CUS-0119,Frontier Advisory Services,Small Business,Professional Services,Charlotte,REG-12,2019-10-10
+CUS-0120,Newport Credit Union,Mid-Market,Financial Services,Tacoma,REG-02,2019-10-16
+CUS-0121,Zenith Academy,Small Business,Education,Grand Rapids,REG-06,2019-10-17
+CUS-0122,Empire Engineering Group,Small Business,Construction,Marietta,REG-10,2019-10-21
+CUS-0123,Prairie Manufacturing Co.,Mid-Market,Manufacturing,San Jose,REG-01,2019-10-25
+CUS-0124,Westbrook Health Partners,Mid-Market,Healthcare,Sacramento,REG-01,2019-10-25
+CUS-0125,Harbor Precision Fabrication,Small Business,Manufacturing,Charlotte,REG-12,2019-11-04
+CUS-0126,Quail Run Care Associates,Small Business,Healthcare,Orlando,REG-11,2019-11-12
+CUS-0127,Franklin Consulting Group,Small Business,Professional Services,Detroit,REG-06,2019-11-13
+CUS-0128,Summit Community Foundation,Mid-Market,Government & Nonprofit,Detroit,REG-06,2019-11-18
+CUS-0129,Horizon Technologies,Small Business,Technology,Worcester,REG-09,2019-11-18
+CUS-0130,Westbrook Law Partners,Small Business,Professional Services,Buffalo,REG-08,2019-11-25
+CUS-0131,Magnolia Regional Alliance,Small Business,Government & Nonprofit,Naperville,REG-05,2019-12-31
+CUS-0132,Pioneer Learning Institute,Enterprise,Education,Rochester,REG-08,2020-01-09
+CUS-0133,Mosaic Industries,Small Business,Manufacturing,San Diego,REG-01,2020-01-09
+CUS-0134,Vanguard Accounting Associates,Small Business,Professional Services,New York,REG-08,2020-01-10
+CUS-0135,Kestrel Credit Union,Small Business,Financial Services,Charlotte,REG-12,2020-01-14
+CUS-0136,Lighthouse Family Clinics,Small Business,Healthcare,Jacksonville,REG-11,2020-01-15
+CUS-0137,Glenwood Technologies,Small Business,Technology,Boulder,REG-03,2020-01-22
+CUS-0138,Jefferson Builders,Mid-Market,Construction,New York,REG-08,2020-01-29
+CUS-0139,Ridgeway Retail Group,Small Business,Retail,San Diego,REG-01,2020-01-30
+CUS-0140,Lakeside Academy,Mid-Market,Education,Atlanta,REG-10,2020-01-31
+CUS-0141,Oakmont Advisory Services,Small Business,Professional Services,Orlando,REG-11,2020-01-31
+CUS-0142,Empire Systems,Enterprise,Technology,San Francisco,REG-01,2020-02-03
+CUS-0143,Newport Construction Co.,Mid-Market,Construction,Houston,REG-04,2020-02-11
+CUS-0144,Fairmont Supply Chain Services,Enterprise,Logistics,Rochester,REG-08,2020-02-20
+CUS-0145,Dunmore Learning Institute,Mid-Market,Education,Harrisburg,REG-07,2020-02-26
+CUS-0146,Quartz Logistics,Mid-Market,Logistics,Boulder,REG-03,2020-02-28
+CUS-0147,Silverline Public Services,Small Business,Government & Nonprofit,Lansing,REG-06,2020-03-03
+CUS-0148,Harbor Community Foundation,Mid-Market,Government & Nonprofit,Boston,REG-09,2020-03-04
+CUS-0149,Trailhead Financial Group,Small Business,Financial Services,Miami,REG-11,2020-03-06
+CUS-0150,Eastgate Retail Group,Small Business,Retail,Cambridge,REG-09,2020-03-11
+CUS-0151,Prairie Industries,Small Business,Manufacturing,Dallas,REG-04,2020-03-11
+CUS-0152,Prairie Builders,Small Business,Construction,Pittsburgh,REG-07,2020-03-18
+CUS-0153,Lakeside School District,Small Business,Education,Charlotte,REG-12,2020-03-23
+CUS-0154,Birchwood Health Partners,Small Business,Healthcare,Jacksonville,REG-11,2020-03-26
+CUS-0155,Kestrel Components Inc.,Mid-Market,Manufacturing,Worcester,REG-09,2020-03-27
+CUS-0156,Onyx Manufacturing Co.,Mid-Market,Manufacturing,New York,REG-08,2020-03-27
+CUS-0157,Lakeside Manufacturing Co.,Mid-Market,Manufacturing,Pittsburgh,REG-07,2020-04-01
+CUS-0158,Upland Technologies,Small Business,Technology,Boston,REG-09,2020-04-06
+CUS-0159,Noble Law Partners,Small Business,Professional Services,Cambridge,REG-09,2020-04-09
+CUS-0160,Silverline Engineering Group,Small Business,Construction,Harrisburg,REG-07,2020-04-15
+CUS-0161,Ridgeway Family Clinics,Small Business,Healthcare,Pittsburgh,REG-07,2020-04-24
+CUS-0162,Sterling Manufacturing Co.,Small Business,Manufacturing,Jacksonville,REG-11,2020-04-27
+CUS-0163,Bluewater Systems,Mid-Market,Technology,Worcester,REG-09,2020-05-08
+CUS-0164,Independence Community Foundation,Small Business,Government & Nonprofit,Fort Collins,REG-03,2020-05-13
+CUS-0165,Elmhurst Contracting,Mid-Market,Construction,Tampa,REG-11,2020-05-14
+CUS-0166,Valley Precision Fabrication,Mid-Market,Manufacturing,Raleigh,REG-12,2020-05-19
+CUS-0167,Juniper Precision Fabrication,Mid-Market,Manufacturing,Boston,REG-09,2020-05-26
+CUS-0168,Monroe Law Partners,Small Business,Professional Services,Savannah,REG-10,2020-05-27
+CUS-0169,Meridian Housing Authority,Mid-Market,Government & Nonprofit,Philadelphia,REG-07,2020-05-28
+CUS-0170,Crestview Digital Solutions,Mid-Market,Technology,Tampa,REG-11,2020-05-28
+CUS-0171,Redwood Industries,Small Business,Manufacturing,Chicago,REG-05,2020-06-08
+CUS-0172,Cobalt Advisory Services,Small Business,Professional Services,San Diego,REG-01,2020-06-10
+CUS-0173,Vanguard Distribution,Mid-Market,Logistics,Orlando,REG-11,2020-06-11
+CUS-0174,Meridian Health Partners,Small Business,Healthcare,Chicago,REG-05,2020-06-12
+CUS-0175,Upland Manufacturing Co.,Mid-Market,Manufacturing,Houston,REG-04,2020-07-07
+CUS-0176,Hudson Marketplace,Mid-Market,Retail,Augusta,REG-10,2020-07-08
+CUS-0177,Franklin Retail Group,Small Business,Retail,Naperville,REG-05,2020-07-16
+CUS-0178,Juniper Housing Authority,Small Business,Government & Nonprofit,Chicago,REG-05,2020-07-17
+CUS-0179,Seaboard Public Services,Small Business,Government & Nonprofit,Charlotte,REG-12,2020-07-20
+CUS-0180,Timberline Credit Union,Small Business,Financial Services,Pittsburgh,REG-07,2020-07-21
+CUS-0181,Maple Wealth Management,Mid-Market,Financial Services,Los Angeles,REG-01,2020-07-22
+CUS-0182,Highland Marketplace,Small Business,Retail,Cambridge,REG-09,2020-07-22
+CUS-0183,Newport Manufacturing Co.,Mid-Market,Manufacturing,Buffalo,REG-08,2020-07-23
+CUS-0184,Oakmont Medical Group,Small Business,Healthcare,Seattle,REG-02,2020-07-24
+CUS-0185,Highland Supply Chain Services,Mid-Market,Logistics,Ann Arbor,REG-06,2020-07-24
+CUS-0186,Frontier Medical Group,Mid-Market,Healthcare,Spokane,REG-02,2020-08-06
+CUS-0187,Redwood School District,Small Business,Education,Harrisburg,REG-07,2020-08-06
+CUS-0188,Atlas Retail Group,Small Business,Retail,Naperville,REG-05,2020-08-06
+CUS-0189,Gateway Precision Fabrication,Mid-Market,Manufacturing,Springfield,REG-05,2020-08-10
+CUS-0190,Jefferson Software Labs,Small Business,Technology,Springfield,REG-05,2020-08-10
+CUS-0191,Northwind Systems,Enterprise,Technology,Ann Arbor,REG-06,2020-08-12
+CUS-0192,Prairie Credit Union,Mid-Market,Financial Services,Naperville,REG-05,2020-08-14
+CUS-0193,Maple Retail Group,Small Business,Retail,Denver,REG-03,2020-08-14
+CUS-0194,Sterling Health Partners,Mid-Market,Healthcare,Greensboro,REG-12,2020-08-14
+CUS-0195,Pioneer Contracting,Mid-Market,Construction,San Antonio,REG-04,2020-08-14
+CUS-0196,Horizon Housing Authority,Small Business,Government & Nonprofit,Raleigh,REG-12,2020-08-20
+CUS-0197,Keystone Construction Co.,Small Business,Construction,Orlando,REG-11,2020-08-27
+CUS-0198,Alder Precision Fabrication,Enterprise,Manufacturing,Worcester,REG-09,2020-09-08
+CUS-0199,Hudson Medical Group,Small Business,Healthcare,Raleigh,REG-12,2020-09-11
+CUS-0200,Summit Manufacturing Co.,Enterprise,Manufacturing,Denver,REG-03,2020-09-11
+CUS-0201,Eastgate Family Clinics,Mid-Market,Healthcare,Pittsburgh,REG-07,2020-09-17
+CUS-0202,Silverline Systems,Small Business,Technology,Charlotte,REG-12,2020-09-18
+CUS-0203,Sunrise Software Labs,Mid-Market,Technology,Charlotte,REG-12,2020-09-22
+CUS-0204,Upland Law Partners,Mid-Market,Professional Services,Harrisburg,REG-07,2020-09-28
+CUS-0205,Seaboard Wealth Management,Small Business,Financial Services,Jacksonville,REG-11,2020-10-01
+CUS-0206,Clearview Construction Co.,Small Business,Construction,Naperville,REG-05,2020-10-06
+CUS-0207,Valley Financial Group,Small Business,Financial Services,Philadelphia,REG-07,2020-10-08
+CUS-0208,Glenwood Advisory Services,Mid-Market,Professional Services,Allentown,REG-07,2020-10-13
+CUS-0209,Crestview Medical Group,Small Business,Healthcare,Savannah,REG-10,2020-10-13
+CUS-0210,Onyx Learning Institute,Small Business,Education,San Francisco,REG-01,2020-10-14
+CUS-0211,Vanguard Outfitters,Small Business,Retail,Springfield,REG-09,2020-10-20
+CUS-0212,Delta Freight Lines,Small Business,Logistics,Atlanta,REG-10,2020-10-22
+CUS-0213,Valley Consulting Group,Mid-Market,Professional Services,Grand Rapids,REG-06,2020-10-23
+CUS-0214,Trailhead Builders,Mid-Market,Construction,New York,REG-08,2020-10-23
+CUS-0215,Alder Medical Group,Mid-Market,Healthcare,Sacramento,REG-01,2020-10-26
+CUS-0216,Silverline Precision Fabrication,Small Business,Manufacturing,San Jose,REG-01,2020-11-02
+CUS-0217,Franklin Freight Lines,Enterprise,Logistics,Augusta,REG-10,2020-11-04
+CUS-0218,Juniper Manufacturing Co.,Mid-Market,Manufacturing,Charlotte,REG-12,2020-11-16
+CUS-0219,Valley Marketplace,Small Business,Retail,Rochester,REG-08,2020-11-17
+CUS-0220,Crestview Financial Group,Small Business,Financial Services,San Francisco,REG-01,2020-11-18
+CUS-0221,Bridgeport Law Partners,Small Business,Professional Services,Albany,REG-08,2020-11-20
+CUS-0222,Meridian Outfitters,Small Business,Retail,San Antonio,REG-04,2020-11-24
+CUS-0223,Brightpath School District,Mid-Market,Education,Springfield,REG-05,2020-11-25
+CUS-0224,Ivy Lane Outfitters,Enterprise,Retail,Augusta,REG-10,2020-11-27
+CUS-0225,Quail Run Outfitters,Small Business,Retail,Rochester,REG-08,2020-11-30
+CUS-0226,Foxwood Academy,Small Business,Education,Peoria,REG-05,2020-11-30
+CUS-0227,Copperfield Supply Chain Services,Enterprise,Logistics,Worcester,REG-09,2020-12-03
+CUS-0228,Apex Contracting,Small Business,Construction,Naperville,REG-05,2020-12-14
+CUS-0229,Maple Law Partners,Small Business,Professional Services,Tampa,REG-11,2020-12-14
+CUS-0230,Evergreen Components Inc.,Mid-Market,Manufacturing,San Francisco,REG-01,2020-12-17
+CUS-0231,Delta Capital Advisors,Enterprise,Financial Services,Tacoma,REG-02,2020-12-18
+CUS-0232,Pinnacle Builders,Small Business,Construction,Denver,REG-03,2020-12-21
+CUS-0233,Valley Medical Group,Enterprise,Healthcare,Marietta,REG-10,2020-12-29
+CUS-0234,Sunrise Housing Authority,Small Business,Government & Nonprofit,Pittsburgh,REG-07,2020-12-30
+CUS-0235,Hawthorn Manufacturing Co.,Mid-Market,Manufacturing,Marietta,REG-10,2021-01-04
+CUS-0236,Noble Systems,Mid-Market,Technology,Sacramento,REG-01,2021-01-06
+CUS-0237,Sunrise Advisory Services,Small Business,Professional Services,Miami,REG-11,2021-01-08
+CUS-0238,Willow Community Foundation,Small Business,Government & Nonprofit,Dallas,REG-04,2021-01-21
+CUS-0239,Horizon Financial Group,Small Business,Financial Services,Dallas,REG-04,2021-01-27
+CUS-0240,Franklin Systems,Small Business,Technology,Allentown,REG-07,2021-02-08
+CUS-0241,Birchwood Law Partners,Small Business,Professional Services,Albany,REG-08,2021-02-08
+CUS-0242,Jefferson Construction Co.,Small Business,Construction,San Francisco,REG-01,2021-02-09
+CUS-0243,Keystone Supply Chain Services,Enterprise,Logistics,Philadelphia,REG-07,2021-02-09
+CUS-0244,Hillcrest Precision Fabrication,Mid-Market,Manufacturing,Rochester,REG-08,2021-02-22
+CUS-0245,Hillcrest Wealth Management,Small Business,Financial Services,San Francisco,REG-01,2021-02-25
+CUS-0246,Valley Construction Co.,Mid-Market,Construction,Springfield,REG-09,2021-03-02
+CUS-0247,Rosewood Marketplace,Small Business,Retail,Albany,REG-08,2021-03-03
+CUS-0248,Orchard School District,Mid-Market,Education,Marietta,REG-10,2021-03-08
+CUS-0249,Oakmont Software Labs,Small Business,Technology,Miami,REG-11,2021-03-18
+CUS-0250,Whitaker Systems,Small Business,Technology,Durham,REG-12,2021-03-23
+CUS-0251,Timberline Outfitters,Mid-Market,Retail,San Jose,REG-01,2021-03-26
+CUS-0252,Union Systems,Mid-Market,Technology,Denver,REG-03,2021-03-29
+CUS-0253,Independence Stores,Small Business,Retail,Cambridge,REG-09,2021-03-29
+CUS-0254,Brightpath Consulting Group,Small Business,Professional Services,Jacksonville,REG-11,2021-04-01
+CUS-0255,Elmhurst Logistics,Small Business,Logistics,Greensboro,REG-12,2021-04-09
+CUS-0256,Harbor Accounting Associates,Small Business,Professional Services,Miami,REG-11,2021-04-12
+CUS-0257,Seaboard Learning Institute,Small Business,Education,Naperville,REG-05,2021-04-15
+CUS-0258,Union Contracting,Small Business,Construction,Dallas,REG-04,2021-04-19
+CUS-0259,Birchwood Credit Union,Small Business,Financial Services,San Francisco,REG-01,2021-04-19
+CUS-0260,Hudson Consulting Group,Enterprise,Professional Services,Charlotte,REG-12,2021-04-23
+CUS-0261,Atlas Stores,Small Business,Retail,Tampa,REG-11,2021-04-28
+CUS-0262,Mosaic Community Foundation,Small Business,Government & Nonprofit,Lansing,REG-06,2021-04-28
+CUS-0263,Summit Care Associates,Enterprise,Healthcare,Bellevue,REG-02,2021-04-29
+CUS-0264,Paragon Law Partners,Mid-Market,Professional Services,Dallas,REG-04,2021-05-07
+CUS-0265,Dunmore Stores,Mid-Market,Retail,Tampa,REG-11,2021-05-07
+CUS-0266,Meridian Precision Fabrication,Mid-Market,Manufacturing,Allentown,REG-07,2021-05-12
+CUS-0267,Noble Consulting Group,Mid-Market,Professional Services,Miami,REG-11,2021-05-13
+CUS-0268,Magnolia Supply Chain Services,Small Business,Logistics,Spokane,REG-02,2021-05-13
+CUS-0269,Summit Stores,Small Business,Retail,Atlanta,REG-10,2021-05-14
+CUS-0270,Northwind Logistics,Enterprise,Logistics,Albany,REG-08,2021-05-14
+CUS-0271,Mosaic Accounting Associates,Small Business,Professional Services,San Antonio,REG-04,2021-05-17
+CUS-0272,Magnolia Components Inc.,Small Business,Manufacturing,Los Angeles,REG-01,2021-05-18
+CUS-0273,Granite Systems,Enterprise,Technology,San Jose,REG-01,2021-05-24
+CUS-0274,Prairie Engineering Group,Small Business,Construction,Bellevue,REG-02,2021-05-25
+CUS-0275,Whitaker Regional Alliance,Small Business,Government & Nonprofit,Denver,REG-03,2021-06-02
+CUS-0276,Elmhurst Components Inc.,Small Business,Manufacturing,Austin,REG-04,2021-06-10
+CUS-0277,Jasper Retail Group,Small Business,Retail,Boulder,REG-03,2021-06-11
+CUS-0278,Copperfield Advisory Services,Small Business,Professional Services,Savannah,REG-10,2021-06-11
+CUS-0279,Sunrise Marketplace,Mid-Market,Retail,Springfield,REG-05,2021-06-11
+CUS-0280,Elmhurst Law Partners,Small Business,Professional Services,Chicago,REG-05,2021-06-14
+CUS-0281,Birchwood Care Associates,Small Business,Healthcare,Atlanta,REG-10,2021-06-22
+CUS-0282,Noble Marketplace,Small Business,Retail,Raleigh,REG-12,2021-06-25
+CUS-0283,Oakmont Components Inc.,Small Business,Manufacturing,Durham,REG-12,2021-06-30
+CUS-0284,Hudson Regional Alliance,Small Business,Government & Nonprofit,Raleigh,REG-12,2021-06-30
+CUS-0285,Sterling Housing Authority,Mid-Market,Government & Nonprofit,Boulder,REG-03,2021-07-01
+CUS-0286,Eastgate Public Services,Mid-Market,Government & Nonprofit,Marietta,REG-10,2021-07-02
+CUS-0287,Rosewood Freight Lines,Enterprise,Logistics,Spokane,REG-02,2021-07-16
+CUS-0288,Seaboard Outfitters,Small Business,Retail,Fort Collins,REG-03,2021-07-20
+CUS-0289,Quartz Marketplace,Small Business,Retail,Spokane,REG-02,2021-07-27
+CUS-0290,Cobalt Family Clinics,Mid-Market,Healthcare,Marietta,REG-10,2021-07-27
+CUS-0291,Independence Accounting Associates,Small Business,Professional Services,San Jose,REG-01,2021-08-02
+CUS-0292,Orchard Digital Solutions,Enterprise,Technology,Seattle,REG-02,2021-08-02
+CUS-0293,Ridgeway Systems,Mid-Market,Technology,Denver,REG-03,2021-08-02
+CUS-0294,Juniper Advisory Services,Small Business,Professional Services,San Antonio,REG-04,2021-08-05
+CUS-0295,Rosewood Learning Institute,Mid-Market,Education,Austin,REG-04,2021-08-09
+CUS-0296,Bridgeport Industries,Small Business,Manufacturing,Savannah,REG-10,2021-08-10
+CUS-0297,Elmhurst Engineering Group,Small Business,Construction,Orlando,REG-11,2021-08-11
+CUS-0298,Cedar Accounting Associates,Small Business,Professional Services,Rochester,REG-08,2021-08-19
+CUS-0299,Jefferson Learning Institute,Small Business,Education,Austin,REG-04,2021-08-23
+CUS-0300,Trailhead Capital Advisors,Enterprise,Financial Services,Miami,REG-11,2021-08-23
+CUS-0301,Paragon Systems,Enterprise,Technology,Harrisburg,REG-07,2021-08-24
+CUS-0302,Paragon Contracting,Small Business,Construction,Springfield,REG-09,2021-09-02
+CUS-0303,Whitaker Capital Advisors,Small Business,Financial Services,Dallas,REG-04,2021-09-09
+CUS-0304,Juniper Learning Institute,Small Business,Education,Tampa,REG-11,2021-09-16
+CUS-0305,Willow Retail Group,Mid-Market,Retail,Cambridge,REG-09,2021-09-17
+CUS-0306,Paragon Learning Institute,Small Business,Education,Chicago,REG-05,2021-09-20
+CUS-0307,Kestrel Advisory Services,Small Business,Professional Services,Austin,REG-04,2021-09-20
+CUS-0308,Willow Manufacturing Co.,Small Business,Manufacturing,San Francisco,REG-01,2021-09-20
+CUS-0309,Clearview Supply Chain Services,Enterprise,Logistics,Tacoma,REG-02,2021-09-21
+CUS-0310,Redwood Advisory Services,Small Business,Professional Services,Colorado Springs,REG-03,2021-09-21
+CUS-0311,Cobalt Regional Alliance,Small Business,Government & Nonprofit,San Antonio,REG-04,2021-09-23
+CUS-0312,Fairmont Technologies,Small Business,Technology,Spokane,REG-02,2021-09-24
+CUS-0313,Elmhurst Advisory Services,Small Business,Professional Services,Dallas,REG-04,2021-09-30
+CUS-0314,Liberty Accounting Associates,Small Business,Professional Services,Colorado Springs,REG-03,2021-10-05
+CUS-0315,Timberline Marketplace,Mid-Market,Retail,Grand Rapids,REG-06,2021-10-08
+CUS-0316,Harbor Construction Co.,Small Business,Construction,Dallas,REG-04,2021-10-08
+CUS-0317,Brightpath Credit Union,Small Business,Financial Services,Detroit,REG-06,2021-10-20
+CUS-0318,Atlas Builders,Small Business,Construction,Detroit,REG-06,2021-10-20
+CUS-0319,Ivy Lane Stores,Small Business,Retail,Marietta,REG-10,2021-10-25
+CUS-0320,Dunmore Logistics,Mid-Market,Logistics,Jacksonville,REG-11,2021-10-29
+CUS-0321,Evergreen Public Services,Mid-Market,Government & Nonprofit,San Antonio,REG-04,2021-11-01
+CUS-0322,Brightpath Public Services,Small Business,Government & Nonprofit,San Jose,REG-01,2021-11-02
+CUS-0323,Lincoln Financial Group,Enterprise,Financial Services,Chicago,REG-05,2021-11-08
+CUS-0324,Delta Stores,Small Business,Retail,Charlotte,REG-12,2021-11-09
+CUS-0325,Maple Stores,Small Business,Retail,Colorado Springs,REG-03,2021-11-10
+CUS-0326,Granite Family Clinics,Small Business,Healthcare,Worcester,REG-09,2021-11-17
+CUS-0327,Delta Digital Solutions,Enterprise,Technology,Ann Arbor,REG-06,2021-11-18
+CUS-0328,Empire Marketplace,Small Business,Retail,Tampa,REG-11,2021-11-19
+CUS-0329,Meridian Financial Group,Mid-Market,Financial Services,Chicago,REG-05,2021-11-22
+CUS-0330,Jefferson Housing Authority,Mid-Market,Government & Nonprofit,Orlando,REG-11,2021-11-26
+CUS-0331,Summit Digital Solutions,Small Business,Technology,Seattle,REG-02,2021-11-26
+CUS-0332,Delta Housing Authority,Mid-Market,Government & Nonprofit,Boulder,REG-03,2021-11-29
+CUS-0333,Crestview Marketplace,Small Business,Retail,Grand Rapids,REG-06,2021-12-01
+CUS-0334,Upland Housing Authority,Small Business,Government & Nonprofit,Marietta,REG-10,2021-12-01
+CUS-0335,Sunrise Community Foundation,Small Business,Government & Nonprofit,Sacramento,REG-01,2021-12-03
+CUS-0336,Cedar Medical Group,Mid-Market,Healthcare,Boulder,REG-03,2021-12-06
+CUS-0337,Capital City Accounting Associates,Mid-Market,Professional Services,Seattle,REG-02,2021-12-07
+CUS-0338,Madison Marketplace,Mid-Market,Retail,Harrisburg,REG-07,2021-12-08
+CUS-0339,Meridian Components Inc.,Mid-Market,Manufacturing,Tampa,REG-11,2021-12-10
+CUS-0340,Kingsley Medical Group,Small Business,Healthcare,Colorado Springs,REG-03,2021-12-15
+CUS-0341,Whitaker Community Foundation,Mid-Market,Government & Nonprofit,San Diego,REG-01,2021-12-15
+CUS-0342,Cobalt Engineering Group,Small Business,Construction,Austin,REG-04,2021-12-16
+CUS-0343,Highland Law Partners,Mid-Market,Professional Services,Atlanta,REG-10,2021-12-20
+CUS-0344,Brightpath Community Foundation,Small Business,Government & Nonprofit,Lansing,REG-06,2021-12-28
+CUS-0345,Hudson Contracting,Small Business,Construction,Springfield,REG-05,2021-12-28
+CUS-0346,Onyx Precision Fabrication,Small Business,Manufacturing,Marietta,REG-10,2021-12-28
+CUS-0347,Upland Training Center,Small Business,Education,Tampa,REG-11,2022-01-03
+CUS-0348,Paragon Engineering Group,Small Business,Construction,San Diego,REG-01,2022-01-05
+CUS-0349,Juniper Marketplace,Small Business,Retail,Albany,REG-08,2022-01-06
+CUS-0350,Liberty Precision Fabrication,Mid-Market,Manufacturing,San Diego,REG-01,2022-01-11
+CUS-0351,Redwood Consulting Group,Small Business,Professional Services,Seattle,REG-02,2022-01-12
+CUS-0352,Madison Accounting Associates,Mid-Market,Professional Services,Spokane,REG-02,2022-01-21
+CUS-0353,Crestview Builders,Small Business,Construction,Bellevue,REG-02,2022-01-21
+CUS-0354,Keystone Retail Group,Small Business,Retail,Harrisburg,REG-07,2022-01-21
+CUS-0355,Evergreen Housing Authority,Small Business,Government & Nonprofit,Allentown,REG-07,2022-01-26
+CUS-0356,Bluewater Supply Chain Services,Small Business,Logistics,Ann Arbor,REG-06,2022-01-31
+CUS-0357,Cobalt Medical Group,Small Business,Healthcare,Cambridge,REG-09,2022-02-01
+CUS-0358,Empire Digital Solutions,Small Business,Technology,Los Angeles,REG-01,2022-02-01
+CUS-0359,Willow Stores,Mid-Market,Retail,Tampa,REG-11,2022-02-02
+CUS-0360,Zenith Family Clinics,Mid-Market,Healthcare,Naperville,REG-05,2022-02-14
+CUS-0361,Granite Consulting Group,Small Business,Professional Services,Jacksonville,REG-11,2022-02-14
+CUS-0362,Stonebridge Credit Union,Mid-Market,Financial Services,Peoria,REG-05,2022-02-16
+CUS-0363,Lakeside Construction Co.,Small Business,Construction,Lansing,REG-06,2022-02-18
+CUS-0364,Willow School District,Small Business,Education,Colorado Springs,REG-03,2022-02-22
+CUS-0365,Monroe Marketplace,Small Business,Retail,San Francisco,REG-01,2022-02-22
+CUS-0366,Cedar Outfitters,Enterprise,Retail,Lansing,REG-06,2022-02-23
+CUS-0367,Frontier Family Clinics,Mid-Market,Healthcare,Houston,REG-04,2022-02-24
+CUS-0368,Onyx Logistics,Mid-Market,Logistics,Worcester,REG-09,2022-02-25
+CUS-0369,Delta Marketplace,Mid-Market,Retail,Jacksonville,REG-11,2022-02-28
+CUS-0370,Valley Freight Lines,Small Business,Logistics,Jacksonville,REG-11,2022-02-28
+CUS-0371,Willow Software Labs,Small Business,Technology,New York,REG-08,2022-03-01
+CUS-0372,Zenith Freight Lines,Enterprise,Logistics,Pittsburgh,REG-07,2022-03-02
+CUS-0373,Rosewood Supply Chain Services,Enterprise,Logistics,New York,REG-08,2022-03-03
+CUS-0374,Maple Digital Solutions,Small Business,Technology,Houston,REG-04,2022-03-04
+CUS-0375,Franklin Academy,Small Business,Education,San Jose,REG-01,2022-03-04
+CUS-0376,Bluewater Accounting Associates,Mid-Market,Professional Services,Albany,REG-08,2022-03-09
+CUS-0377,Maple Advisory Services,Small Business,Professional Services,Ann Arbor,REG-06,2022-03-10
+CUS-0378,Franklin Construction Co.,Small Business,Construction,Miami,REG-11,2022-03-17
+CUS-0379,Kestrel Retail Group,Mid-Market,Retail,San Jose,REG-01,2022-03-18
+CUS-0380,Elmhurst Regional Alliance,Small Business,Government & Nonprofit,Colorado Springs,REG-03,2022-03-23
+CUS-0381,Upland Public Services,Mid-Market,Government & Nonprofit,Houston,REG-04,2022-03-28
+CUS-0382,Kestrel Law Partners,Small Business,Professional Services,Boston,REG-09,2022-03-28
+CUS-0383,Highland Components Inc.,Mid-Market,Manufacturing,Lansing,REG-06,2022-03-30
+CUS-0384,Paragon Builders,Mid-Market,Construction,Houston,REG-04,2022-04-01
+CUS-0385,Sunrise Training Center,Small Business,Education,Rochester,REG-08,2022-04-01
+CUS-0386,Harbor Builders,Small Business,Construction,Augusta,REG-10,2022-04-05
+CUS-0387,Cedar Care Associates,Small Business,Healthcare,Raleigh,REG-12,2022-04-07
+CUS-0388,Ridgeway Freight Lines,Mid-Market,Logistics,Raleigh,REG-12,2022-04-13
+CUS-0389,Dunmore Care Associates,Mid-Market,Healthcare,Marietta,REG-10,2022-04-14
+CUS-0390,Delta Precision Fabrication,Mid-Market,Manufacturing,Allentown,REG-07,2022-04-14
+CUS-0391,Dunmore Advisory Services,Small Business,Professional Services,Durham,REG-12,2022-04-19
+CUS-0392,Union Advisory Services,Small Business,Professional Services,Jacksonville,REG-11,2022-04-26
+CUS-0393,Madison Stores,Enterprise,Retail,Savannah,REG-10,2022-04-28
+CUS-0394,Bluewater Marketplace,Mid-Market,Retail,Bellevue,REG-02,2022-04-28
+CUS-0395,Copperfield Capital Advisors,Small Business,Financial Services,Pittsburgh,REG-07,2022-04-29
+CUS-0396,Juniper Freight Lines,Small Business,Logistics,Augusta,REG-10,2022-05-05
+CUS-0397,Cobalt Law Partners,Mid-Market,Professional Services,San Antonio,REG-04,2022-05-09
+CUS-0398,Sunrise School District,Small Business,Education,Bellevue,REG-02,2022-05-09
+CUS-0399,Dunmore Training Center,Small Business,Education,Savannah,REG-10,2022-05-17
+CUS-0400,Meridian Builders,Small Business,Construction,Boston,REG-09,2022-05-20
+CUS-0401,Madison Outfitters,Small Business,Retail,Philadelphia,REG-07,2022-05-20
+CUS-0402,Stonebridge Software Labs,Mid-Market,Technology,Miami,REG-11,2022-05-23
+CUS-0403,Magnolia Builders,Mid-Market,Construction,Buffalo,REG-08,2022-05-26
+CUS-0404,Frontier Stores,Mid-Market,Retail,Peoria,REG-05,2022-05-31
+CUS-0405,Seaboard Digital Solutions,Small Business,Technology,Durham,REG-12,2022-06-02
+CUS-0406,Crestview Manufacturing Co.,Mid-Market,Manufacturing,Harrisburg,REG-07,2022-06-13
+CUS-0407,Redwood Construction Co.,Mid-Market,Construction,Colorado Springs,REG-03,2022-06-17
+CUS-0408,Harbor Care Associates,Mid-Market,Healthcare,Augusta,REG-10,2022-06-17
+CUS-0409,Brightpath Stores,Mid-Market,Retail,Boston,REG-09,2022-06-17
+CUS-0410,Monroe Contracting,Small Business,Construction,San Jose,REG-01,2022-06-24
+CUS-0411,Frontier Accounting Associates,Small Business,Professional Services,Bellevue,REG-02,2022-06-28
+CUS-0412,Brightpath Health Partners,Small Business,Healthcare,Springfield,REG-05,2022-07-05
+CUS-0413,Paragon Retail Group,Small Business,Retail,Harrisburg,REG-07,2022-07-07
+CUS-0414,Rosewood Advisory Services,Small Business,Professional Services,Detroit,REG-06,2022-07-11
+CUS-0415,Monroe Distribution,Mid-Market,Logistics,Lansing,REG-06,2022-07-14
+CUS-0416,Cobalt Marketplace,Small Business,Retail,Savannah,REG-10,2022-07-15
+CUS-0417,Evergreen Marketplace,Mid-Market,Retail,Sacramento,REG-01,2022-07-18
+CUS-0418,Vanguard Health Partners,Mid-Market,Healthcare,Peoria,REG-05,2022-07-22
+CUS-0419,Cedar Credit Union,Mid-Market,Financial Services,Allentown,REG-07,2022-07-25
+CUS-0420,Granite Housing Authority,Small Business,Government & Nonprofit,Albany,REG-08,2022-07-29
+CUS-0421,Bridgeport Family Clinics,Small Business,Healthcare,Tampa,REG-11,2022-07-29
+CUS-0422,Newport Stores,Small Business,Retail,Rochester,REG-08,2022-08-10
+CUS-0423,Horizon Systems,Enterprise,Technology,Rochester,REG-08,2022-08-10
+CUS-0424,Orchard Freight Lines,Small Business,Logistics,San Jose,REG-01,2022-08-16
+CUS-0425,Redwood Systems,Mid-Market,Technology,Marietta,REG-10,2022-08-18
+CUS-0426,Riverbend Public Services,Small Business,Government & Nonprofit,Grand Rapids,REG-06,2022-08-19
+CUS-0427,Zenith Manufacturing Co.,Enterprise,Manufacturing,Albany,REG-08,2022-08-22
+CUS-0428,Sterling Software Labs,Mid-Market,Technology,New York,REG-08,2022-08-24
+CUS-0429,Madison Community Foundation,Small Business,Government & Nonprofit,Naperville,REG-05,2022-08-26
+CUS-0430,Westbrook Regional Alliance,Small Business,Government & Nonprofit,Atlanta,REG-10,2022-08-30
+CUS-0431,Evergreen Community Foundation,Small Business,Government & Nonprofit,Pittsburgh,REG-07,2022-08-31
+CUS-0432,Noble Technologies,Small Business,Technology,Harrisburg,REG-07,2022-09-01
+CUS-0433,Cobalt Wealth Management,Small Business,Financial Services,Spokane,REG-02,2022-09-06
+CUS-0434,Lincoln Freight Lines,Enterprise,Logistics,Denver,REG-03,2022-09-07
+CUS-0435,Whitaker Precision Fabrication,Small Business,Manufacturing,San Jose,REG-01,2022-09-07
+CUS-0436,Oakmont Marketplace,Mid-Market,Retail,Detroit,REG-06,2022-09-21
+CUS-0437,Stonebridge Community Foundation,Small Business,Government & Nonprofit,Worcester,REG-09,2022-09-21
+CUS-0438,Hudson Financial Group,Mid-Market,Financial Services,New York,REG-08,2022-09-23
+CUS-0439,Noble Wealth Management,Small Business,Financial Services,Naperville,REG-05,2022-09-27
+CUS-0440,Keystone Medical Group,Small Business,Healthcare,Springfield,REG-09,2022-09-27
+CUS-0441,Meridian Advisory Services,Small Business,Professional Services,San Antonio,REG-04,2022-09-28
+CUS-0442,Westbrook Outfitters,Mid-Market,Retail,Springfield,REG-05,2022-09-28
+CUS-0443,Cedar Software Labs,Mid-Market,Technology,San Antonio,REG-04,2022-09-28
+CUS-0444,Clearview Advisory Services,Small Business,Professional Services,Dallas,REG-04,2022-10-03
+CUS-0445,Quartz Industries,Small Business,Manufacturing,Marietta,REG-10,2022-10-12
+CUS-0446,Highland Medical Group,Small Business,Healthcare,Durham,REG-12,2022-10-14
+CUS-0447,Jefferson Care Associates,Small Business,Healthcare,Boulder,REG-03,2022-10-14
+CUS-0448,Lakeshore Marketplace,Small Business,Retail,Chicago,REG-05,2022-10-17
+CUS-0449,Keystone Academy,Small Business,Education,San Antonio,REG-04,2022-10-18
+CUS-0450,Maple Health Partners,Enterprise,Healthcare,Philadelphia,REG-07,2022-10-18
+CUS-0451,Hillcrest Outfitters,Enterprise,Retail,Tampa,REG-11,2022-10-20
+CUS-0452,Jasper Precision Fabrication,Mid-Market,Manufacturing,Colorado Springs,REG-03,2022-10-24
+CUS-0453,Highland Community Foundation,Small Business,Government & Nonprofit,Houston,REG-04,2022-10-26
+CUS-0454,Cobalt Industries,Mid-Market,Manufacturing,Los Angeles,REG-01,2022-10-27
+CUS-0455,Glenwood Law Partners,Small Business,Professional Services,Miami,REG-11,2022-11-01
+CUS-0456,Harbor Regional Alliance,Enterprise,Government & Nonprofit,Rochester,REG-08,2022-11-02
+CUS-0457,Birchwood Digital Solutions,Mid-Market,Technology,San Diego,REG-01,2022-11-03
+CUS-0458,Ivy Lane Regional Alliance,Small Business,Government & Nonprofit,San Diego,REG-01,2022-11-03
+CUS-0459,Evergreen Software Labs,Enterprise,Technology,Dallas,REG-04,2022-11-07
+CUS-0460,Onyx Retail Group,Small Business,Retail,Austin,REG-04,2022-11-08
+CUS-0461,Highland Health Partners,Small Business,Healthcare,Pittsburgh,REG-07,2022-11-08
+CUS-0462,Lakeside Training Center,Enterprise,Education,Grand Rapids,REG-06,2022-11-10
+CUS-0463,Franklin Accounting Associates,Small Business,Professional Services,Sacramento,REG-01,2022-11-16
+CUS-0464,Pinnacle Law Partners,Mid-Market,Professional Services,Raleigh,REG-12,2022-11-16
+CUS-0465,Apex Medical Group,Small Business,Healthcare,Houston,REG-04,2022-11-23
+CUS-0466,Noble Precision Fabrication,Mid-Market,Manufacturing,Spokane,REG-02,2022-11-28
+CUS-0467,Franklin Digital Solutions,Mid-Market,Technology,Tampa,REG-11,2022-11-29
+CUS-0468,Kingsley Manufacturing Co.,Mid-Market,Manufacturing,San Diego,REG-01,2022-11-30
+CUS-0469,Mosaic Medical Group,Small Business,Healthcare,Orlando,REG-11,2022-12-08
+CUS-0470,Hawthorn Wealth Management,Small Business,Financial Services,Seattle,REG-02,2022-12-09
+CUS-0471,Seaboard Care Associates,Enterprise,Healthcare,Denver,REG-03,2022-12-12
+CUS-0472,Keystone Community Foundation,Small Business,Government & Nonprofit,Buffalo,REG-08,2022-12-12
+CUS-0473,Bridgeport Freight Lines,Mid-Market,Logistics,San Francisco,REG-01,2022-12-12
+CUS-0474,Northwind Outfitters,Mid-Market,Retail,Cambridge,REG-09,2022-12-14
+CUS-0475,Yorkshire Builders,Small Business,Construction,Albany,REG-08,2022-12-15
+CUS-0476,Rosewood Housing Authority,Small Business,Government & Nonprofit,Worcester,REG-09,2022-12-19
+CUS-0477,Franklin Stores,Small Business,Retail,San Antonio,REG-04,2022-12-23
+CUS-0478,Hawthorn Regional Alliance,Small Business,Government & Nonprofit,Rochester,REG-08,2022-12-23
+CUS-0479,Copperfield Outfitters,Small Business,Retail,Peoria,REG-05,2022-12-28
+CUS-0480,Whitaker Construction Co.,Small Business,Construction,Albany,REG-08,2022-12-30
+CUS-0481,Willow Regional Alliance,Mid-Market,Government & Nonprofit,Colorado Springs,REG-03,2023-01-04
+CUS-0482,Clearview Family Clinics,Enterprise,Healthcare,San Diego,REG-01,2023-01-04
+CUS-0483,Gateway Stores,Small Business,Retail,Seattle,REG-02,2023-01-04
+CUS-0484,Capital City Care Associates,Small Business,Healthcare,Philadelphia,REG-07,2023-01-09
+CUS-0485,Kingsley Engineering Group,Small Business,Construction,Orlando,REG-11,2023-01-09
+CUS-0486,Ridgeway Digital Solutions,Small Business,Technology,Fort Collins,REG-03,2023-01-10
+CUS-0487,Cedar Health Partners,Small Business,Healthcare,Tacoma,REG-02,2023-01-11
+CUS-0488,Empire Medical Group,Mid-Market,Healthcare,Austin,REG-04,2023-01-11
+CUS-0489,Summit Distribution,Enterprise,Logistics,San Antonio,REG-04,2023-01-12
+CUS-0490,Crestview Components Inc.,Enterprise,Manufacturing,Detroit,REG-06,2023-01-17
+CUS-0491,Westbrook Academy,Mid-Market,Education,New York,REG-08,2023-01-24
+CUS-0492,Redwood Capital Advisors,Small Business,Financial Services,Raleigh,REG-12,2023-01-24
+CUS-0493,Harbor School District,Small Business,Education,Buffalo,REG-08,2023-01-25
+CUS-0494,Highland Systems,Small Business,Technology,Dallas,REG-04,2023-01-27
+CUS-0495,Keystone Capital Advisors,Mid-Market,Financial Services,Marietta,REG-10,2023-02-07
+CUS-0496,Cedar Family Clinics,Mid-Market,Healthcare,Detroit,REG-06,2023-02-07
+CUS-0497,Elmhurst Financial Group,Small Business,Financial Services,Atlanta,REG-10,2023-02-08
+CUS-0498,Lincoln Retail Group,Small Business,Retail,Harrisburg,REG-07,2023-02-13
+CUS-0499,Quartz Supply Chain Services,Small Business,Logistics,Buffalo,REG-08,2023-02-14
+CUS-0500,Gateway Manufacturing Co.,Small Business,Manufacturing,Detroit,REG-06,2023-02-16
+CUS-0501,Onyx Family Clinics,Enterprise,Healthcare,Miami,REG-11,2023-02-17
+CUS-0502,Riverbend Components Inc.,Mid-Market,Manufacturing,Greensboro,REG-12,2023-02-21
+CUS-0503,Glenwood Outfitters,Enterprise,Retail,Naperville,REG-05,2023-02-22
+CUS-0504,Crestview Regional Alliance,Small Business,Government & Nonprofit,Boulder,REG-03,2023-02-27
+CUS-0505,Beacon Software Labs,Enterprise,Technology,San Diego,REG-01,2023-02-27
+CUS-0506,Cobalt Builders,Small Business,Construction,Houston,REG-04,2023-02-27
+CUS-0507,Valley Contracting,Small Business,Construction,New York,REG-08,2023-03-01
+CUS-0508,Hawthorn Marketplace,Small Business,Retail,San Diego,REG-01,2023-03-07
+CUS-0509,Atlas Components Inc.,Enterprise,Manufacturing,Tacoma,REG-02,2023-03-08
+CUS-0510,Granite Precision Fabrication,Mid-Market,Manufacturing,Spokane,REG-02,2023-03-08
+CUS-0511,Bridgeport Engineering Group,Small Business,Construction,Albany,REG-08,2023-03-08
+CUS-0512,Onyx Public Services,Enterprise,Government & Nonprofit,Marietta,REG-10,2023-03-10
+CUS-0513,Hillcrest Advisory Services,Small Business,Professional Services,Fort Collins,REG-03,2023-03-10
+CUS-0514,Heritage Community Foundation,Mid-Market,Government & Nonprofit,Tampa,REG-11,2023-03-13
+CUS-0515,Meridian Marketplace,Small Business,Retail,Springfield,REG-05,2023-03-13
+CUS-0516,Trailhead Retail Group,Small Business,Retail,Naperville,REG-05,2023-03-15
+CUS-0517,Trailhead Consulting Group,Small Business,Professional Services,Rochester,REG-08,2023-03-22
+CUS-0518,Vanguard Digital Solutions,Mid-Market,Technology,Allentown,REG-07,2023-03-27
+CUS-0519,Bluewater Housing Authority,Small Business,Government & Nonprofit,San Francisco,REG-01,2023-03-27
+CUS-0520,Bluewater Retail Group,Small Business,Retail,San Francisco,REG-01,2023-03-29
+CUS-0521,Atlas Outfitters,Small Business,Retail,Philadelphia,REG-07,2023-03-30
+CUS-0522,Clearview Retail Group,Small Business,Retail,Boston,REG-09,2023-04-04
+CUS-0523,Lighthouse Community Foundation,Mid-Market,Government & Nonprofit,Detroit,REG-06,2023-04-04
+CUS-0524,Bluewater Training Center,Mid-Market,Education,Boston,REG-09,2023-04-04
+CUS-0525,Paragon Components Inc.,Enterprise,Manufacturing,Denver,REG-03,2023-04-04
+CUS-0526,Cobalt Components Inc.,Mid-Market,Manufacturing,Augusta,REG-10,2023-04-05
+CUS-0527,Elmhurst Freight Lines,Small Business,Logistics,Tampa,REG-11,2023-04-06
+CUS-0528,Granite Community Foundation,Mid-Market,Government & Nonprofit,Sacramento,REG-01,2023-04-07
+CUS-0529,Heritage Digital Solutions,Mid-Market,Technology,Fort Collins,REG-03,2023-04-10
+CUS-0530,Atlas Technologies,Small Business,Technology,Springfield,REG-09,2023-04-12
+CUS-0531,Timberline Systems,Enterprise,Technology,Chicago,REG-05,2023-04-14
+CUS-0532,Union Supply Chain Services,Mid-Market,Logistics,Spokane,REG-02,2023-04-20
+CUS-0533,Crestview School District,Small Business,Education,Tacoma,REG-02,2023-04-20
+CUS-0534,Newport Industries,Mid-Market,Manufacturing,Durham,REG-12,2023-04-21
+CUS-0535,Quartz Construction Co.,Mid-Market,Construction,San Jose,REG-01,2023-04-21
+CUS-0536,Monroe Community Foundation,Small Business,Government & Nonprofit,Albany,REG-08,2023-04-24
+CUS-0537,Lincoln Construction Co.,Small Business,Construction,Savannah,REG-10,2023-05-01
+CUS-0538,Hillcrest Care Associates,Small Business,Healthcare,Boston,REG-09,2023-05-01
+CUS-0539,Independence Marketplace,Small Business,Retail,San Diego,REG-01,2023-05-05
+CUS-0540,Beacon Medical Group,Small Business,Healthcare,Atlanta,REG-10,2023-05-09
+CUS-0541,Foxwood Public Services,Mid-Market,Government & Nonprofit,San Jose,REG-01,2023-05-10
+CUS-0542,Upland Supply Chain Services,Small Business,Logistics,San Francisco,REG-01,2023-05-15
+CUS-0543,Trailhead Credit Union,Enterprise,Financial Services,Charlotte,REG-12,2023-05-18
+CUS-0544,Vanguard Technologies,Small Business,Technology,Pittsburgh,REG-07,2023-05-23
+CUS-0545,Brightpath Builders,Small Business,Construction,Dallas,REG-04,2023-05-24
+CUS-0546,Seaboard Regional Alliance,Small Business,Government & Nonprofit,Tacoma,REG-02,2023-05-30
+CUS-0547,Westbrook Precision Fabrication,Mid-Market,Manufacturing,Raleigh,REG-12,2023-06-05
+CUS-0548,Trailhead Industries,Small Business,Manufacturing,Los Angeles,REG-01,2023-06-12
+CUS-0549,Highland Manufacturing Co.,Enterprise,Manufacturing,Naperville,REG-05,2023-06-12
+CUS-0550,Valley Manufacturing Co.,Mid-Market,Manufacturing,Philadelphia,REG-07,2023-06-13
+CUS-0551,Pioneer Construction Co.,Small Business,Construction,San Antonio,REG-04,2023-06-20
+CUS-0552,Valley Outfitters,Small Business,Retail,Tacoma,REG-02,2023-06-22
+CUS-0553,Vanguard Precision Fabrication,Small Business,Manufacturing,Augusta,REG-10,2023-06-23
+CUS-0554,Franklin Community Foundation,Mid-Market,Government & Nonprofit,Durham,REG-12,2023-06-26
+CUS-0555,Quail Run Retail Group,Small Business,Retail,Naperville,REG-05,2023-06-26
+CUS-0556,Upland Precision Fabrication,Small Business,Manufacturing,Dallas,REG-04,2023-06-28
+CUS-0557,Apex Engineering Group,Small Business,Construction,Jacksonville,REG-11,2023-06-29
+CUS-0558,Beacon Contracting,Mid-Market,Construction,Naperville,REG-05,2023-06-30
+CUS-0559,Fairmont Logistics,Mid-Market,Logistics,Durham,REG-12,2023-07-06
+CUS-0560,Birchwood Consulting Group,Small Business,Professional Services,Houston,REG-04,2023-07-06
+CUS-0561,Mosaic Construction Co.,Small Business,Construction,Spokane,REG-02,2023-07-06
+CUS-0562,Meridian Technologies,Small Business,Technology,Buffalo,REG-08,2023-07-07
+CUS-0563,Willow Accounting Associates,Small Business,Professional Services,San Diego,REG-01,2023-07-10
+CUS-0564,Stonebridge Engineering Group,Small Business,Construction,Buffalo,REG-08,2023-07-12
+CUS-0565,Riverbend Manufacturing Co.,Mid-Market,Manufacturing,Springfield,REG-05,2023-07-14
+CUS-0566,Foxwood Systems,Enterprise,Technology,Charlotte,REG-12,2023-07-17
+CUS-0567,Kingsley Family Clinics,Mid-Market,Healthcare,Spokane,REG-02,2023-07-17
+CUS-0568,Summit Construction Co.,Small Business,Construction,Philadelphia,REG-07,2023-07-21
+CUS-0569,Clearview Capital Advisors,Enterprise,Financial Services,Raleigh,REG-12,2023-07-24
+CUS-0570,Independence Law Partners,Small Business,Professional Services,New York,REG-08,2023-07-25
+CUS-0571,Gateway Accounting Associates,Mid-Market,Professional Services,Chicago,REG-05,2023-07-25
+CUS-0572,Seaboard Medical Group,Mid-Market,Healthcare,Austin,REG-04,2023-07-26
+CUS-0573,Highland School District,Small Business,Education,New York,REG-08,2023-07-27
+CUS-0574,Franklin Housing Authority,Small Business,Government & Nonprofit,Grand Rapids,REG-06,2023-07-31
+CUS-0575,Redwood Technologies,Mid-Market,Technology,Detroit,REG-06,2023-08-02
+CUS-0576,Yorkshire Law Partners,Small Business,Professional Services,Sacramento,REG-01,2023-08-09
+CUS-0577,Bridgeport Care Associates,Small Business,Healthcare,San Antonio,REG-04,2023-08-11
+CUS-0578,Bluewater Medical Group,Small Business,Healthcare,Springfield,REG-05,2023-08-23
+CUS-0579,Horizon Regional Alliance,Small Business,Government & Nonprofit,San Francisco,REG-01,2023-08-23
+CUS-0580,Madison Technologies,Small Business,Technology,Tampa,REG-11,2023-08-24
+CUS-0581,Maple Marketplace,Mid-Market,Retail,Buffalo,REG-08,2023-08-25
+CUS-0582,Pinnacle Contracting,Small Business,Construction,Sacramento,REG-01,2023-08-29
+CUS-0583,Zenith Community Foundation,Small Business,Government & Nonprofit,Harrisburg,REG-07,2023-08-31
+CUS-0584,Jefferson Retail Group,Small Business,Retail,Peoria,REG-05,2023-08-31
+CUS-0585,Highland Consulting Group,Small Business,Professional Services,Houston,REG-04,2023-09-05
+CUS-0586,Whitaker Digital Solutions,Small Business,Technology,San Antonio,REG-04,2023-09-13
+CUS-0587,Foxwood Accounting Associates,Mid-Market,Professional Services,Harrisburg,REG-07,2023-09-14
+CUS-0588,Maple Engineering Group,Small Business,Construction,Buffalo,REG-08,2023-09-22
+CUS-0589,Frontier Retail Group,Mid-Market,Retail,Chicago,REG-05,2023-09-22
+CUS-0590,Seaboard Logistics,Small Business,Logistics,San Antonio,REG-04,2023-09-26
+CUS-0591,Ironwood Capital Advisors,Small Business,Financial Services,Springfield,REG-05,2023-09-28
+CUS-0592,Harbor Public Services,Small Business,Government & Nonprofit,Naperville,REG-05,2023-09-29
+CUS-0593,Hudson Logistics,Enterprise,Logistics,New York,REG-08,2023-09-29
+CUS-0594,Crestview Logistics,Small Business,Logistics,Sacramento,REG-01,2023-10-04
+CUS-0595,Trailhead Medical Group,Mid-Market,Healthcare,Sacramento,REG-01,2023-10-05
+CUS-0596,Cedar Academy,Mid-Market,Education,Spokane,REG-02,2023-10-06
+CUS-0597,Liberty Health Partners,Small Business,Healthcare,Peoria,REG-05,2023-10-06
+CUS-0598,Monroe Consulting Group,Mid-Market,Professional Services,Houston,REG-04,2023-10-06
+CUS-0599,Elmhurst Systems,Enterprise,Technology,Miami,REG-11,2023-10-10
+CUS-0600,Trailhead Training Center,Small Business,Education,Springfield,REG-05,2023-10-10
+CUS-0601,Quartz Regional Alliance,Mid-Market,Government & Nonprofit,Rochester,REG-08,2023-10-11
+CUS-0602,Crestview Family Clinics,Small Business,Healthcare,Raleigh,REG-12,2023-10-11
+CUS-0603,Eastgate Health Partners,Small Business,Healthcare,Albany,REG-08,2023-10-16
+CUS-0604,Frontier Digital Solutions,Small Business,Technology,Allentown,REG-07,2023-10-18
+CUS-0605,Sunrise Supply Chain Services,Small Business,Logistics,Colorado Springs,REG-03,2023-10-19
+CUS-0606,Apex Regional Alliance,Small Business,Government & Nonprofit,Albany,REG-08,2023-10-25
+CUS-0607,Lighthouse Marketplace,Mid-Market,Retail,Denver,REG-03,2023-10-27
+CUS-0608,Glenwood Health Partners,Enterprise,Healthcare,Tampa,REG-11,2023-10-30
+CUS-0609,Summit Freight Lines,Small Business,Logistics,Dallas,REG-04,2023-10-31
+CUS-0610,Harbor Stores,Small Business,Retail,Houston,REG-04,2023-11-01
+CUS-0611,Lighthouse Distribution,Small Business,Logistics,Jacksonville,REG-11,2023-11-02
+CUS-0612,Ridgeway Distribution,Mid-Market,Logistics,New York,REG-08,2023-11-09
+CUS-0613,Maple Software Labs,Mid-Market,Technology,Naperville,REG-05,2023-11-20
+CUS-0614,Magnolia Credit Union,Mid-Market,Financial Services,Austin,REG-04,2023-11-20
+CUS-0615,Hawthorn Community Foundation,Small Business,Government & Nonprofit,Augusta,REG-10,2023-11-27
+CUS-0616,Heritage Public Services,Small Business,Government & Nonprofit,Cambridge,REG-09,2023-12-05
+CUS-0617,Jasper Advisory Services,Small Business,Professional Services,Atlanta,REG-10,2023-12-05
+CUS-0618,Hudson Engineering Group,Small Business,Construction,New York,REG-08,2023-12-07
+CUS-0619,Oakmont Freight Lines,Small Business,Logistics,Bellevue,REG-02,2023-12-08
+CUS-0620,Sterling Regional Alliance,Small Business,Government & Nonprofit,Tampa,REG-11,2023-12-11
+CUS-0621,Franklin Law Partners,Small Business,Professional Services,New York,REG-08,2023-12-11
+CUS-0622,Cobalt Capital Advisors,Mid-Market,Financial Services,Austin,REG-04,2023-12-15
+CUS-0623,Magnolia Housing Authority,Small Business,Government & Nonprofit,Allentown,REG-07,2023-12-22
+CUS-0624,Copperfield Health Partners,Small Business,Healthcare,Durham,REG-12,2023-12-29
+CUS-0625,Jasper Stores,Small Business,Retail,Albany,REG-08,2023-12-29
+CUS-0626,Lakeshore Engineering Group,Small Business,Construction,Ann Arbor,REG-06,2023-12-29
+CUS-0627,Summit Industries,Enterprise,Manufacturing,Miami,REG-11,2023-12-29
+CUS-0628,Meridian Family Clinics,Small Business,Healthcare,Ann Arbor,REG-06,2024-01-02
+CUS-0629,Quartz Engineering Group,Small Business,Construction,Springfield,REG-05,2024-01-02
+CUS-0630,Seaboard Accounting Associates,Mid-Market,Professional Services,San Antonio,REG-04,2024-01-05
+CUS-0631,Birchwood Components Inc.,Mid-Market,Manufacturing,Charlotte,REG-12,2024-01-08
+CUS-0632,Fairmont Wealth Management,Mid-Market,Financial Services,Chicago,REG-05,2024-01-11
+CUS-0633,Riverbend Stores,Small Business,Retail,San Diego,REG-01,2024-01-11
+CUS-0634,Meridian Logistics,Small Business,Logistics,Dallas,REG-04,2024-01-16
+CUS-0635,Newport Wealth Management,Mid-Market,Financial Services,Seattle,REG-02,2024-01-17
+CUS-0636,Yorkshire Retail Group,Mid-Market,Retail,Augusta,REG-10,2024-01-18
+CUS-0637,Sterling Components Inc.,Small Business,Manufacturing,Denver,REG-03,2024-01-18
+CUS-0638,Pinnacle Engineering Group,Small Business,Construction,Lansing,REG-06,2024-01-22
+CUS-0639,Onyx Community Foundation,Mid-Market,Government & Nonprofit,Springfield,REG-09,2024-01-22
+CUS-0640,Hawthorn Public Services,Small Business,Government & Nonprofit,San Jose,REG-01,2024-01-26
+CUS-0641,Zenith Housing Authority,Mid-Market,Government & Nonprofit,Bellevue,REG-02,2024-01-29
+CUS-0642,Oakmont Health Partners,Mid-Market,Healthcare,Boston,REG-09,2024-01-29
+CUS-0643,Crestview Software Labs,Small Business,Technology,San Jose,REG-01,2024-02-06
+CUS-0644,Pioneer Family Clinics,Small Business,Healthcare,Austin,REG-04,2024-02-07
+CUS-0645,Atlas Manufacturing Co.,Enterprise,Manufacturing,Seattle,REG-02,2024-02-08
+CUS-0646,Capital City School District,Small Business,Education,Atlanta,REG-10,2024-02-08
+CUS-0647,Pinnacle Community Foundation,Mid-Market,Government & Nonprofit,Orlando,REG-11,2024-02-09
+CUS-0648,Maple Family Clinics,Small Business,Healthcare,Buffalo,REG-08,2024-02-13
+CUS-0649,Whitaker Financial Group,Enterprise,Financial Services,Houston,REG-04,2024-02-14
+CUS-0650,Redwood Learning Institute,Small Business,Education,Denver,REG-03,2024-02-16
+CUS-0651,Orchard Accounting Associates,Small Business,Professional Services,San Jose,REG-01,2024-02-16
+CUS-0652,Brightpath Marketplace,Small Business,Retail,Marietta,REG-10,2024-02-26
+CUS-0653,Stonebridge Digital Solutions,Mid-Market,Technology,San Antonio,REG-04,2024-02-26
+CUS-0654,Union Capital Advisors,Small Business,Financial Services,Peoria,REG-05,2024-02-29
+CUS-0655,Madison Medical Group,Small Business,Healthcare,San Francisco,REG-01,2024-03-07
+CUS-0656,Cedar Distribution,Mid-Market,Logistics,Grand Rapids,REG-06,2024-03-07
+CUS-0657,Oakmont Care Associates,Small Business,Healthcare,Savannah,REG-10,2024-03-07
+CUS-0658,Hillcrest Family Clinics,Mid-Market,Healthcare,Augusta,REG-10,2024-03-08
+CUS-0659,Copperfield Academy,Small Business,Education,Boston,REG-09,2024-03-12
+CUS-0660,Ridgeway Logistics,Small Business,Logistics,San Francisco,REG-01,2024-03-12
+CUS-0661,Fairmont Digital Solutions,Small Business,Technology,Greensboro,REG-12,2024-03-14
+CUS-0662,Maple Industries,Small Business,Manufacturing,Chicago,REG-05,2024-03-19
+CUS-0663,Glenwood Consulting Group,Small Business,Professional Services,Rochester,REG-08,2024-03-26
+CUS-0664,Harbor Advisory Services,Mid-Market,Professional Services,Philadelphia,REG-07,2024-03-26
+CUS-0665,Jasper Care Associates,Enterprise,Healthcare,San Antonio,REG-04,2024-03-28
+CUS-0666,Zenith Engineering Group,Small Business,Construction,Los Angeles,REG-01,2024-04-01
+CUS-0667,Foxwood Capital Advisors,Mid-Market,Financial Services,Jacksonville,REG-11,2024-04-01
+CUS-0668,Zenith Software Labs,Enterprise,Technology,Austin,REG-04,2024-04-05
+CUS-0669,Gateway Learning Institute,Small Business,Education,San Diego,REG-01,2024-04-08
+CUS-0670,Quartz Stores,Mid-Market,Retail,Grand Rapids,REG-06,2024-04-09
+CUS-0671,Independence Wealth Management,Small Business,Financial Services,San Jose,REG-01,2024-04-12
+CUS-0672,Timberline Academy,Small Business,Education,Boston,REG-09,2024-04-12
+CUS-0673,Ironwood Advisory Services,Small Business,Professional Services,Pittsburgh,REG-07,2024-04-18
+CUS-0674,Union Family Clinics,Small Business,Healthcare,San Jose,REG-01,2024-04-23
+CUS-0675,Highland Housing Authority,Small Business,Government & Nonprofit,Harrisburg,REG-07,2024-04-29
+CUS-0676,Frontier Engineering Group,Small Business,Construction,Seattle,REG-02,2024-05-03
+CUS-0677,Vanguard Consulting Group,Small Business,Professional Services,Houston,REG-04,2024-05-07
+CUS-0678,Clearview Systems,Mid-Market,Technology,Pittsburgh,REG-07,2024-05-14
+CUS-0679,Ironwood Care Associates,Enterprise,Healthcare,Cambridge,REG-09,2024-05-16
+CUS-0680,Onyx Outfitters,Small Business,Retail,San Francisco,REG-01,2024-05-20
+CUS-0681,Clearview Digital Solutions,Mid-Market,Technology,Marietta,REG-10,2024-05-20
+CUS-0682,Bridgeport Retail Group,Small Business,Retail,San Diego,REG-01,2024-05-29
+CUS-0683,Hudson Industries,Small Business,Manufacturing,Lansing,REG-06,2024-05-31
+CUS-0684,Dunmore Health Partners,Enterprise,Healthcare,Sacramento,REG-01,2024-06-04
+CUS-0685,Willow Industries,Mid-Market,Manufacturing,Orlando,REG-11,2024-06-05
+CUS-0686,Crestview Construction Co.,Small Business,Construction,San Antonio,REG-04,2024-06-07
+CUS-0687,Sunrise Contracting,Small Business,Construction,Albany,REG-08,2024-06-17
+CUS-0688,Lakeside Consulting Group,Small Business,Professional Services,Peoria,REG-05,2024-06-18
+CUS-0689,Gateway Public Services,Small Business,Government & Nonprofit,Chicago,REG-05,2024-06-18
+CUS-0690,Clearview Consulting Group,Small Business,Professional Services,Naperville,REG-05,2024-06-20
+CUS-0691,Newport Distribution,Mid-Market,Logistics,Houston,REG-04,2024-06-25
+CUS-0692,Jefferson Community Foundation,Small Business,Government & Nonprofit,Cambridge,REG-09,2024-06-25
+CUS-0693,Pioneer Stores,Small Business,Retail,Albany,REG-08,2024-06-26
+CUS-0694,Kestrel Public Services,Small Business,Government & Nonprofit,Durham,REG-12,2024-06-27
+CUS-0695,Kestrel Builders,Small Business,Construction,Dallas,REG-04,2024-07-02
+CUS-0696,Lincoln Precision Fabrication,Small Business,Manufacturing,Fort Collins,REG-03,2024-07-03
+CUS-0697,Dunmore Credit Union,Enterprise,Financial Services,Worcester,REG-09,2024-07-05
+CUS-0698,Alder Consulting Group,Small Business,Professional Services,Albany,REG-08,2024-07-09
+CUS-0699,Seaboard Community Foundation,Mid-Market,Government & Nonprofit,Buffalo,REG-08,2024-07-10
+CUS-0700,Hudson Outfitters,Small Business,Retail,Sacramento,REG-01,2024-07-12
+CUS-0701,Keystone Housing Authority,Small Business,Government & Nonprofit,Houston,REG-04,2024-07-12
+CUS-0702,Beacon Advisory Services,Enterprise,Professional Services,San Jose,REG-01,2024-07-15
+CUS-0703,Ivy Lane Supply Chain Services,Mid-Market,Logistics,Rochester,REG-08,2024-07-15
+CUS-0704,Maple Components Inc.,Small Business,Manufacturing,Austin,REG-04,2024-07-22
+CUS-0705,Northwind Accounting Associates,Small Business,Professional Services,Colorado Springs,REG-03,2024-07-22
+CUS-0706,Atlas Construction Co.,Small Business,Construction,Jacksonville,REG-11,2024-07-24
+CUS-0707,Yorkshire Distribution,Mid-Market,Logistics,Atlanta,REG-10,2024-08-02
+CUS-0708,Kingsley Precision Fabrication,Small Business,Manufacturing,San Francisco,REG-01,2024-08-02
+CUS-0709,Brightpath Accounting Associates,Small Business,Professional Services,Tampa,REG-11,2024-08-14
+CUS-0710,Ivy Lane Contracting,Small Business,Construction,Buffalo,REG-08,2024-08-21
+CUS-0711,Summit Law Partners,Small Business,Professional Services,San Antonio,REG-04,2024-08-22
+CUS-0712,Hawthorn Components Inc.,Small Business,Manufacturing,Ann Arbor,REG-06,2024-08-23
+CUS-0713,Upland Regional Alliance,Mid-Market,Government & Nonprofit,Buffalo,REG-08,2024-08-26
+CUS-0714,Rosewood Industries,Mid-Market,Manufacturing,Colorado Springs,REG-03,2024-08-27
+CUS-0715,Westbrook Learning Institute,Small Business,Education,Worcester,REG-09,2024-08-27
+CUS-0716,Orchard Software Labs,Small Business,Technology,Los Angeles,REG-01,2024-08-29
+CUS-0717,Cedar Logistics,Enterprise,Logistics,Denver,REG-03,2024-08-30
+CUS-0718,Quartz Manufacturing Co.,Enterprise,Manufacturing,Springfield,REG-09,2024-09-05
+CUS-0719,Magnolia Care Associates,Enterprise,Healthcare,San Antonio,REG-04,2024-09-05
+CUS-0720,Crestview Retail Group,Small Business,Retail,Albany,REG-08,2024-09-09
+CUS-0721,Cedar Construction Co.,Small Business,Construction,Augusta,REG-10,2024-09-09
+CUS-0722,Zenith Precision Fabrication,Mid-Market,Manufacturing,Spokane,REG-02,2024-09-16
+CUS-0723,Stonebridge Marketplace,Small Business,Retail,Springfield,REG-09,2024-09-16
+CUS-0724,Pinnacle Precision Fabrication,Small Business,Manufacturing,Ann Arbor,REG-06,2024-09-16
+CUS-0725,Beacon Consulting Group,Small Business,Professional Services,Augusta,REG-10,2024-09-17
+CUS-0726,Lighthouse Care Associates,Small Business,Healthcare,Bellevue,REG-02,2024-09-17
+CUS-0727,Foxwood Housing Authority,Small Business,Government & Nonprofit,Cambridge,REG-09,2024-09-26
+CUS-0728,Pinnacle Learning Institute,Mid-Market,Education,Chicago,REG-05,2024-09-26
+CUS-0729,Prairie Consulting Group,Small Business,Professional Services,Sacramento,REG-01,2024-09-27
+CUS-0730,Independence Supply Chain Services,Small Business,Logistics,Boston,REG-09,2024-09-27
+CUS-0731,Hawthorn Precision Fabrication,Small Business,Manufacturing,Greensboro,REG-12,2024-09-30
+CUS-0732,Vanguard Components Inc.,Mid-Market,Manufacturing,Harrisburg,REG-07,2024-10-01
+CUS-0733,Jefferson Digital Solutions,Mid-Market,Technology,Los Angeles,REG-01,2024-10-01
+CUS-0734,Gateway Community Foundation,Enterprise,Government & Nonprofit,Jacksonville,REG-11,2024-10-04
+CUS-0735,Alder Components Inc.,Small Business,Manufacturing,Buffalo,REG-08,2024-10-04
+CUS-0736,Highland Stores,Mid-Market,Retail,Naperville,REG-05,2024-10-04
+CUS-0737,Hudson Stores,Mid-Market,Retail,Savannah,REG-10,2024-10-07
+CUS-0738,Monroe Health Partners,Mid-Market,Healthcare,San Jose,REG-01,2024-10-07
+CUS-0739,Eastgate Marketplace,Small Business,Retail,Dallas,REG-04,2024-10-07
+CUS-0740,Ridgeway Components Inc.,Mid-Market,Manufacturing,Buffalo,REG-08,2024-10-08
+CUS-0741,Sterling Care Associates,Small Business,Healthcare,Lansing,REG-06,2024-10-10
+CUS-0742,Ridgeway Accounting Associates,Small Business,Professional Services,Miami,REG-11,2024-10-16
+CUS-0743,Highland Outfitters,Enterprise,Retail,Albany,REG-08,2024-10-18
+CUS-0744,Seaboard Construction Co.,Small Business,Construction,Tampa,REG-11,2024-10-21
+CUS-0745,Kestrel Freight Lines,Small Business,Logistics,Seattle,REG-02,2024-10-22
+CUS-0746,Horizon Marketplace,Small Business,Retail,San Jose,REG-01,2024-10-28
+CUS-0747,Fairmont Retail Group,Small Business,Retail,San Antonio,REG-04,2024-10-30
+CUS-0748,Jefferson Precision Fabrication,Small Business,Manufacturing,Greensboro,REG-12,2024-10-31
+CUS-0749,Zenith Digital Solutions,Small Business,Technology,New York,REG-08,2024-11-01
+CUS-0750,Meridian Training Center,Mid-Market,Education,Rochester,REG-08,2024-11-07
+CUS-0751,Cobalt Precision Fabrication,Mid-Market,Manufacturing,Peoria,REG-05,2024-11-07
+CUS-0752,Copperfield Medical Group,Enterprise,Healthcare,Augusta,REG-10,2024-11-08
+CUS-0753,Sterling Digital Solutions,Small Business,Technology,Fort Collins,REG-03,2024-11-08
+CUS-0754,Oakmont Engineering Group,Enterprise,Construction,Pittsburgh,REG-07,2024-11-13
+CUS-0755,Upland Wealth Management,Enterprise,Financial Services,Ann Arbor,REG-06,2024-11-14
+CUS-0756,Hawthorn Logistics,Small Business,Logistics,San Francisco,REG-01,2024-11-15
+CUS-0757,Juniper Systems,Enterprise,Technology,Rochester,REG-08,2024-11-18
+CUS-0758,Union Stores,Small Business,Retail,Springfield,REG-05,2024-11-19
+CUS-0759,Lighthouse Technologies,Small Business,Technology,Bellevue,REG-02,2024-11-22
+CUS-0760,Frontier Financial Group,Mid-Market,Financial Services,Jacksonville,REG-11,2024-11-25
+CUS-0761,Beacon Public Services,Mid-Market,Government & Nonprofit,Worcester,REG-09,2024-12-05
+CUS-0762,Harbor Health Partners,Small Business,Healthcare,Albany,REG-08,2024-12-10
+CUS-0763,Redwood Stores,Small Business,Retail,Seattle,REG-02,2024-12-12
+CUS-0764,Valley Health Partners,Small Business,Healthcare,Jacksonville,REG-11,2024-12-16
+CUS-0765,Eastgate Precision Fabrication,Mid-Market,Manufacturing,New York,REG-08,2024-12-20
+CUS-0766,Zenith Contracting,Small Business,Construction,Ann Arbor,REG-06,2024-12-24
+CUS-0767,Mosaic Technologies,Small Business,Technology,Marietta,REG-10,2024-12-26
+CUS-0768,Delta Construction Co.,Mid-Market,Construction,Allentown,REG-07,2024-12-27
+CUS-0769,Prairie Law Partners,Mid-Market,Professional Services,Seattle,REG-02,2024-12-27
+CUS-0770,Crestview Engineering Group,Small Business,Construction,Colorado Springs,REG-03,2024-12-30
+CUS-0771,Kingsley Retail Group,Small Business,Retail,Buffalo,REG-08,2024-12-31
+CUS-0772,Lakeshore Training Center,Small Business,Education,Colorado Springs,REG-03,2024-12-31
+CUS-0773,Clearview Community Foundation,Small Business,Government & Nonprofit,Albany,REG-08,2024-12-31
+CUS-0774,Prairie Marketplace,Small Business,Retail,Bellevue,REG-02,2025-01-07
+CUS-0775,Paragon Manufacturing Co.,Mid-Market,Manufacturing,Worcester,REG-09,2025-01-09
+CUS-0776,Heritage Industries,Small Business,Manufacturing,Sacramento,REG-01,2025-01-09
+CUS-0777,Riverbend Outfitters,Small Business,Retail,Buffalo,REG-08,2025-01-13
+CUS-0778,Ivy Lane Technologies,Small Business,Technology,Los Angeles,REG-01,2025-01-14
+CUS-0779,Union Law Partners,Small Business,Professional Services,Springfield,REG-05,2025-01-14
+CUS-0780,Prairie Contracting,Mid-Market,Construction,Albany,REG-08,2025-01-16
+CUS-0781,Bluewater Manufacturing Co.,Mid-Market,Manufacturing,Jacksonville,REG-11,2025-01-23
+CUS-0782,Summit Contracting,Mid-Market,Construction,San Jose,REG-01,2025-01-24
+CUS-0783,Gateway Health Partners,Small Business,Healthcare,Buffalo,REG-08,2025-01-28
+CUS-0784,Noble Logistics,Mid-Market,Logistics,San Diego,REG-01,2025-01-30
+CUS-0785,Horizon Care Associates,Small Business,Healthcare,Atlanta,REG-10,2025-01-31
+CUS-0786,Lighthouse Stores,Small Business,Retail,San Antonio,REG-04,2025-01-31
+CUS-0787,Timberline Industries,Small Business,Manufacturing,Cambridge,REG-09,2025-02-03
+CUS-0788,Westbrook Marketplace,Small Business,Retail,Spokane,REG-02,2025-02-10
+CUS-0789,Empire Housing Authority,Small Business,Government & Nonprofit,Pittsburgh,REG-07,2025-02-11
+CUS-0790,Timberline Consulting Group,Small Business,Professional Services,Grand Rapids,REG-06,2025-02-11
+CUS-0791,Hudson Care Associates,Mid-Market,Healthcare,Spokane,REG-02,2025-02-12
+CUS-0792,Copperfield Learning Institute,Small Business,Education,Harrisburg,REG-07,2025-02-13
+CUS-0793,Monroe Care Associates,Small Business,Healthcare,San Diego,REG-01,2025-02-13
+CUS-0794,Brightpath Law Partners,Small Business,Professional Services,Peoria,REG-05,2025-02-19
+CUS-0795,Hawthorn Industries,Mid-Market,Manufacturing,Chicago,REG-05,2025-02-19
+CUS-0796,Sterling Advisory Services,Small Business,Professional Services,Tampa,REG-11,2025-02-21
+CUS-0797,Newport Marketplace,Mid-Market,Retail,Springfield,REG-05,2025-03-03
+CUS-0798,Frontier School District,Small Business,Education,Dallas,REG-04,2025-03-06
+CUS-0799,Apex Academy,Small Business,Education,Tampa,REG-11,2025-03-07
+CUS-0800,Upland Capital Advisors,Small Business,Financial Services,Rochester,REG-08,2025-03-12
+CUS-0801,Evergreen Systems,Small Business,Technology,Colorado Springs,REG-03,2025-03-18
+CUS-0802,Atlas Law Partners,Small Business,Professional Services,Tampa,REG-11,2025-03-18
+CUS-0803,Sterling Training Center,Mid-Market,Education,Tampa,REG-11,2025-03-18
+CUS-0804,Cobalt Manufacturing Co.,Mid-Market,Manufacturing,Orlando,REG-11,2025-03-26
+CUS-0805,Trailhead Regional Alliance,Small Business,Government & Nonprofit,Atlanta,REG-10,2025-04-01
+CUS-0806,Kingsley Health Partners,Mid-Market,Healthcare,Peoria,REG-05,2025-04-01
+CUS-0807,Northwind Builders,Mid-Market,Construction,New York,REG-08,2025-04-10
+CUS-0808,Apex Law Partners,Enterprise,Professional Services,Fort Collins,REG-03,2025-04-10
+CUS-0809,Westbrook Freight Lines,Mid-Market,Logistics,Philadelphia,REG-07,2025-04-11
+CUS-0810,Maple Public Services,Mid-Market,Government & Nonprofit,Pittsburgh,REG-07,2025-04-11
+CUS-0811,Atlas Community Foundation,Mid-Market,Government & Nonprofit,Tacoma,REG-02,2025-04-15
+CUS-0812,Whitaker Software Labs,Mid-Market,Technology,Boulder,REG-03,2025-04-18
+CUS-0813,Bluewater Credit Union,Mid-Market,Financial Services,Rochester,REG-08,2025-04-21
+CUS-0814,Fairmont Learning Institute,Mid-Market,Education,Denver,REG-03,2025-04-22
+CUS-0815,Hillcrest Financial Group,Small Business,Financial Services,Colorado Springs,REG-03,2025-04-22
+CUS-0816,Silverline Manufacturing Co.,Enterprise,Manufacturing,San Francisco,REG-01,2025-04-25
+CUS-0817,Riverbend Credit Union,Small Business,Financial Services,Dallas,REG-04,2025-05-02
+CUS-0818,Stonebridge Components Inc.,Mid-Market,Manufacturing,Orlando,REG-11,2025-05-06
+CUS-0819,Willow Digital Solutions,Mid-Market,Technology,San Francisco,REG-01,2025-05-08
+CUS-0820,Quartz Family Clinics,Small Business,Healthcare,Tampa,REG-11,2025-05-12
+CUS-0821,Westbrook Consulting Group,Small Business,Professional Services,Marietta,REG-10,2025-05-13
+CUS-0822,Lakeshore Law Partners,Small Business,Professional Services,Albany,REG-08,2025-05-13
+CUS-0823,Bridgeport Marketplace,Small Business,Retail,San Francisco,REG-01,2025-05-15
+CUS-0824,Granite Construction Co.,Small Business,Construction,Bellevue,REG-02,2025-05-15
+CUS-0825,Birchwood Marketplace,Mid-Market,Retail,San Diego,REG-01,2025-05-19
+CUS-0826,Cedar Regional Alliance,Small Business,Government & Nonprofit,Harrisburg,REG-07,2025-05-20
+CUS-0827,Capital City Credit Union,Mid-Market,Financial Services,Springfield,REG-09,2025-05-20
+CUS-0828,Noble Regional Alliance,Small Business,Government & Nonprofit,Miami,REG-11,2025-05-23
+CUS-0829,Frontier Law Partners,Mid-Market,Professional Services,Raleigh,REG-12,2025-05-27
+CUS-0830,Seaboard Systems,Enterprise,Technology,Peoria,REG-05,2025-06-02
+CUS-0831,Zenith Supply Chain Services,Small Business,Logistics,Cambridge,REG-09,2025-06-03
+CUS-0832,Harbor Software Labs,Small Business,Technology,Grand Rapids,REG-06,2025-06-04
+CUS-0833,Lighthouse Consulting Group,Small Business,Professional Services,Tacoma,REG-02,2025-06-09
+CUS-0834,Empire Retail Group,Small Business,Retail,Peoria,REG-05,2025-06-12
+CUS-0835,Rosewood Stores,Mid-Market,Retail,Austin,REG-04,2025-06-16
+CUS-0836,Redwood Health Partners,Small Business,Healthcare,Durham,REG-12,2025-06-16
+CUS-0837,Prairie Regional Alliance,Enterprise,Government & Nonprofit,Orlando,REG-11,2025-06-17
+CUS-0838,Mosaic Housing Authority,Small Business,Government & Nonprofit,Austin,REG-04,2025-06-25
+CUS-0839,Seaboard Health Partners,Mid-Market,Healthcare,Austin,REG-04,2025-06-25
+CUS-0840,Cedar Digital Solutions,Mid-Market,Technology,San Diego,REG-01,2025-06-26
+CUS-0841,Ivy Lane Public Services,Small Business,Government & Nonprofit,Spokane,REG-02,2025-06-26
+CUS-0842,Alder Health Partners,Mid-Market,Healthcare,Cambridge,REG-09,2025-06-26
+CUS-0843,Orchard Outfitters,Enterprise,Retail,Chicago,REG-05,2025-06-27
+CUS-0844,Glenwood Stores,Mid-Market,Retail,San Antonio,REG-04,2025-06-30
+CUS-0845,Oakmont Manufacturing Co.,Mid-Market,Manufacturing,Savannah,REG-10,2025-06-30
+CUS-0846,Sterling Academy,Mid-Market,Education,Raleigh,REG-12,2025-07-15
+CUS-0847,Beacon Manufacturing Co.,Mid-Market,Manufacturing,Buffalo,REG-08,2025-07-17
+CUS-0848,Kingsley Freight Lines,Mid-Market,Logistics,Houston,REG-04,2025-07-24
+CUS-0849,Birchwood Housing Authority,Mid-Market,Government & Nonprofit,Dallas,REG-04,2025-08-01
+CUS-0850,Sterling Law Partners,Small Business,Professional Services,Orlando,REG-11,2025-08-04
+CUS-0851,Granite Accounting Associates,Mid-Market,Professional Services,Cambridge,REG-09,2025-08-06
+CUS-0852,Frontier Public Services,Small Business,Government & Nonprofit,Atlanta,REG-10,2025-08-08
+CUS-0853,Juniper Regional Alliance,Small Business,Government & Nonprofit,Durham,REG-12,2025-08-11
+CUS-0854,Noble Health Partners,Small Business,Healthcare,Dallas,REG-04,2025-08-20
+CUS-0855,Jasper Learning Institute,Small Business,Education,San Diego,REG-01,2025-08-20
+CUS-0856,Orchard Medical Group,Small Business,Healthcare,Jacksonville,REG-11,2025-08-21
+CUS-0857,Paragon Community Foundation,Small Business,Government & Nonprofit,Philadelphia,REG-07,2025-08-22
+CUS-0858,Rosewood Engineering Group,Small Business,Construction,Naperville,REG-05,2025-08-26
+CUS-0859,Cobalt Housing Authority,Small Business,Government & Nonprofit,Atlanta,REG-10,2025-09-05
+CUS-0860,Paragon Family Clinics,Mid-Market,Healthcare,Dallas,REG-04,2025-09-05
+CUS-0861,Hudson Credit Union,Mid-Market,Financial Services,Marietta,REG-10,2025-09-15
+CUS-0862,Quail Run Manufacturing Co.,Mid-Market,Manufacturing,Bellevue,REG-02,2025-09-25
+CUS-0863,Copperfield Construction Co.,Small Business,Construction,Ann Arbor,REG-06,2025-09-25
+CUS-0864,Juniper Credit Union,Mid-Market,Financial Services,Cambridge,REG-09,2025-09-26
+CUS-0865,Crestview Distribution,Mid-Market,Logistics,San Antonio,REG-04,2025-10-03
+CUS-0866,Silverline Retail Group,Small Business,Retail,Naperville,REG-05,2025-10-14
+CUS-0867,Lakeside Components Inc.,Mid-Market,Manufacturing,Seattle,REG-02,2025-10-16
+CUS-0868,Bluewater Construction Co.,Small Business,Construction,Houston,REG-04,2025-10-21
+CUS-0869,Beacon Marketplace,Enterprise,Retail,Sacramento,REG-01,2025-10-21
+CUS-0870,Sunrise Retail Group,Small Business,Retail,Peoria,REG-05,2025-10-22
+CUS-0871,Magnolia Academy,Mid-Market,Education,Charlotte,REG-12,2025-10-22
+CUS-0872,Westbrook Family Clinics,Enterprise,Healthcare,Greensboro,REG-12,2025-10-24
+CUS-0873,Pioneer School District,Mid-Market,Education,Austin,REG-04,2025-10-27
+CUS-0874,Hawthorn Construction Co.,Small Business,Construction,Raleigh,REG-12,2025-10-31
+CUS-0875,Monroe Construction Co.,Small Business,Construction,San Jose,REG-01,2025-10-31
+CUS-0876,Quartz Training Center,Small Business,Education,Cambridge,REG-09,2025-11-03
+CUS-0877,Monroe Retail Group,Small Business,Retail,Rochester,REG-08,2025-11-03
+CUS-0878,Magnolia Wealth Management,Mid-Market,Financial Services,San Francisco,REG-01,2025-11-04
+CUS-0879,Silverline Medical Group,Mid-Market,Healthcare,Los Angeles,REG-01,2025-11-06
+CUS-0880,Pioneer Capital Advisors,Small Business,Financial Services,San Diego,REG-01,2025-11-07
+CUS-0881,Harbor Components Inc.,Small Business,Manufacturing,Tacoma,REG-02,2025-11-10
+CUS-0882,Orchard Advisory Services,Small Business,Professional Services,Detroit,REG-06,2025-11-13
+CUS-0883,Kestrel Accounting Associates,Mid-Market,Professional Services,San Antonio,REG-04,2025-11-14
+CUS-0884,Lakeside Capital Advisors,Small Business,Financial Services,Worcester,REG-09,2025-11-14
+CUS-0885,Juniper Digital Solutions,Small Business,Technology,Sacramento,REG-01,2025-11-21
+CUS-0886,Onyx Housing Authority,Mid-Market,Government & Nonprofit,San Antonio,REG-04,2025-11-26
+CUS-0887,Copperfield Engineering Group,Small Business,Construction,Peoria,REG-05,2025-11-26
+CUS-0888,Birchwood Builders,Small Business,Construction,Orlando,REG-11,2025-12-02
+CUS-0889,Magnolia Family Clinics,Small Business,Healthcare,San Diego,REG-01,2025-12-03
+CUS-0890,Yorkshire Regional Alliance,Small Business,Government & Nonprofit,San Jose,REG-01,2025-12-04
+CUS-0891,Riverbend Freight Lines,Mid-Market,Logistics,Buffalo,REG-08,2025-12-08
+CUS-0892,Valley Family Clinics,Small Business,Healthcare,Durham,REG-12,2025-12-10
+CUS-0893,Pinnacle Consulting Group,Small Business,Professional Services,Harrisburg,REG-07,2025-12-12
+CUS-0894,Highland Learning Institute,Mid-Market,Education,Greensboro,REG-12,2025-12-17
+CUS-0895,Jefferson Logistics,Small Business,Logistics,Boston,REG-09,2025-12-19
+CUS-0896,Vanguard Care Associates,Small Business,Healthcare,Savannah,REG-10,2025-12-19
+CUS-0897,Bridgeport Manufacturing Co.,Mid-Market,Manufacturing,Savannah,REG-10,2025-12-19
+CUS-0898,Magnolia Digital Solutions,Enterprise,Technology,Philadelphia,REG-07,2025-12-22
+CUS-0899,Hudson Accounting Associates,Small Business,Professional Services,Augusta,REG-10,2025-12-24
+CUS-0900,Highland Digital Solutions,Mid-Market,Technology,Miami,REG-11,2025-12-29

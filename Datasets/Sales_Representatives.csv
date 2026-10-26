@@ -1,0 +1,41 @@
+Sales_Rep_ID,Sales_Rep_Name,Region_ID,Department,Sales_Target
+REP-01,Tyler Fisher,REG-01,Enterprise Sales,37000
+REP-02,Jason Nguyen,REG-01,Mid-Market Sales,14000
+REP-03,Derek Bennett,REG-01,Mid-Market Sales,15000
+REP-04,Grace Walker,REG-01,Small Business Sales,13500
+REP-05,Kevin Sullivan,REG-02,Enterprise Sales,25000
+REP-06,Hannah Rivera,REG-02,Mid-Market Sales,18500
+REP-07,Derek Vasquez,REG-02,Small Business Sales,8500
+REP-08,Amanda Xu,REG-03,Enterprise Sales,19500
+REP-09,Olivia Morgan,REG-03,Mid-Market Sales,15000
+REP-10,Linda Jenkins,REG-03,Small Business Sales,6000
+REP-11,Susan Zimmerman,REG-04,Enterprise Sales,32000
+REP-12,Sofia Ortiz,REG-04,Mid-Market Sales,14500
+REP-13,Jason Nelson,REG-04,Mid-Market Sales,11000
+REP-14,Raj Hughes,REG-04,Small Business Sales,11500
+REP-15,David Hughes,REG-05,Enterprise Sales,28500
+REP-16,Diana Ortiz,REG-05,Mid-Market Sales,21500
+REP-17,Angela Keller,REG-05,Small Business Sales,8500
+REP-18,Carlos Bennett,REG-06,Enterprise Sales,19500
+REP-19,Sofia Jordan,REG-06,Mid-Market Sales,14000
+REP-20,Michael Underwood,REG-06,Small Business Sales,6000
+REP-21,Jennifer Ortiz,REG-07,Enterprise Sales,24500
+REP-22,Aisha Rivera,REG-07,Mid-Market Sales,19000
+REP-23,Maria Zimmerman,REG-07,Small Business Sales,7500
+REP-24,Patrick Grant,REG-08,Enterprise Sales,37000
+REP-25,Derek Hughes,REG-08,Mid-Market Sales,16000
+REP-26,Emily Anderson,REG-08,Mid-Market Sales,13500
+REP-27,Emily Grant,REG-08,Small Business Sales,11500
+REP-28,Andrew Lopez,REG-09,Enterprise Sales,26500
+REP-29,Andrew Rivera,REG-09,Mid-Market Sales,19000
+REP-30,Patrick Ibrahim,REG-09,Small Business Sales,8500
+REP-31,Jason Rivera,REG-10,Enterprise Sales,24000
+REP-32,David Parker,REG-10,Mid-Market Sales,17000
+REP-33,Jennifer Lopez,REG-10,Small Business Sales,8000
+REP-34,Jennifer Rivera,REG-11,Enterprise Sales,28000
+REP-35,David Lopez,REG-11,Mid-Market Sales,11000
+REP-36,Raj Morgan,REG-11,Mid-Market Sales,11500
+REP-37,James Mitchell,REG-11,Small Business Sales,10000
+REP-38,Laura Young,REG-12,Enterprise Sales,20500
+REP-39,Brian Morgan,REG-12,Mid-Market Sales,17500
+REP-40,William Nguyen,REG-12,Small Business Sales,7000

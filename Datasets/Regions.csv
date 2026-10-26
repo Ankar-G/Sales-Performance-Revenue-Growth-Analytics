@@ -1,0 +1,13 @@
+Region_ID,Region_Name,Country,State
+REG-01,West Coast,United States,California
+REG-02,Pacific Northwest,United States,Washington
+REG-03,Mountain West,United States,Colorado
+REG-04,Texas Gulf,United States,Texas
+REG-05,Midwest Central,United States,Illinois
+REG-06,Great Lakes,United States,Michigan
+REG-07,Mid-Atlantic,United States,Pennsylvania
+REG-08,New York Metro,United States,New York
+REG-09,New England,United States,Massachusetts
+REG-10,Southeast,United States,Georgia
+REG-11,Florida Peninsula,United States,Florida
+REG-12,Carolinas,United States,North Carolina
